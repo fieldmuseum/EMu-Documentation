@@ -11,3 +11,4 @@ Field Museum documentation for EMu workflows, structural changes, and standardiz
 ## Other IT & Data-handling Resources
 
 - [Using Awk and R to parse large datasets](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/)
+- [Fastest Way to Load Data Into PostgreSQL Using Python](https://hakibenita.com/fast-load-data-python-postgresql)
