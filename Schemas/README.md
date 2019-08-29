@@ -4,6 +4,7 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 * fmnh_schema.xls = Field Museum of Natural History schema
 * nmnh_schema.xls = Smithsonian National Museum of Natural History schema (superseded modules removed)
 * nybg_schema.xlsx = New York Botanical Garden
+* umnh_schema.xls = Natural History Museum of Utah
 * ushmm_schema.xslx = United States Holocaust Memorial Museum
 * ypmnh_schema.xslx = Yale Peabody Museum schema
  
