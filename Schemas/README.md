@@ -2,6 +2,7 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 
 * cmoa_schema.xls = Carnegie Museum of Art schema
 * fmnh_schema.xls = Field Museum of Natural History schema
+* lac_schema.xls = Natural History Museum of Los Angeles County schema
 * nmnh_schema.xls = Smithsonian National Museum of Natural History schema (superseded modules removed)
 * nybg_schema.xlsx = New York Botanical Garden
 * umnh_schema.xls = Natural History Museum of Utah
