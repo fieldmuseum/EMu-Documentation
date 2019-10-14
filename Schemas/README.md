@@ -8,5 +8,6 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 * nybg_schema.xlsx = New York Botanical Garden
 * umnh_schema.xls = Natural History Museum of Utah
 * ushmm_schema.xslx = United States Holocaust Memorial Museum
+* wint_schema.xls = Winterthur Museum schema
 * ypmnh_schema.xslx = Yale Peabody Museum schema
  
