@@ -14,4 +14,4 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 * wint_schema.xls = Winterthur Museum schema
 * ypmnh_schema.xslx = Yale Peabody Museum schema
  
-* all_schemas.csv = concatenated list of all EMu modules & columns across institutions
+all_schemas.csv = concatenated list of all EMu modules & columns across institutions
