@@ -15,3 +15,4 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 * ypmnh_schema.xslx = Yale Peabody Museum schema
  
 all_schemas.csv = concatenated list of all EMu modules & columns across institutions
+* See [rough visualization here](https://kate-webbink.shinyapps.io/schemaoverview/)
