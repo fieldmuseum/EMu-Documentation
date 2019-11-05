@@ -14,5 +14,6 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 * wint_schema.xls = Winterthur Museum schema
 * ypmnh_schema.xslx = Yale Peabody Museum schema
  
-all_schemas.csv = concatenated list of all EMu modules & columns across institutions
+all_modules.csv = list of all EMu modules per institution
+all_schemas.csv = list of all EMu modules + ColumnNames across institutions
 * See [rough visualization here](https://kate-webbink.shinyapps.io/schemaoverview/)
