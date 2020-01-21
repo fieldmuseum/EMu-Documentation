@@ -19,4 +19,5 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 Combined lists:
 - all_modules.csv = all EMu modules per institution
 - all_schemas.csv = all EMu modules + ColumnNames across institutions
-  * See [rough visualization here](https://kate-webbink.shinyapps.io/schemaoverview/)
+  * A [rough visualization here](https://kate-webbink.shinyapps.io/schemaoverview/)
+  * A [rough way to measure used/unused fields here](https://kate-webbink.shinyapps.io/schema-use/)
