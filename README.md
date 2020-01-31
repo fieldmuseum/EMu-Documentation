@@ -8,10 +8,10 @@ One set for each module:
 We use this to document the discussions and decisions that we make as a user group. Some will lead to structural changes requests and others result in workflow changes. This document stays alive and is intended to be our master documentation for that module.
 
 ### - [Structural Changes Template](https://docs.google.com/document/d/19V6rYzCPe8_u5-JhoCf-sQ0zVDubF9xSHYqApmSaMaA/)
-We use this one to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
+We use this to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
 
 ### - [Admin Testing Template](https://docs.google.com/document/d/16xxeky2kTEMUM4eW1GPQRQFUvvwUsG-gPhuRFNUWUa0/)
-We use this document when structural changes are returned to us from Axiell, to document the EMu Admin level review. Once signed off by the Admins it is returned to Axiell.
+We use this to document the Admin level review of structural changes as returned to us from Axiell. It indicates whether developments to a module have be completed as specified in the corresponding structural changes document or not. Once signed off by the Admin team it is returned to Axiell.
 
 ## Other IT & Data-handling Resources
 
