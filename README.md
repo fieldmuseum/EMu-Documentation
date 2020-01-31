@@ -2,9 +2,10 @@
 Field Museum documentation for EMu workflows, structural changes, and standardization.
 
 ## Documentation Templates:
+One set for each module:
 
 ### - [Standards & Workflow Documentation Template](https://docs.google.com/document/d/1L-lFa4STSxdCT8pe1EamQRyEgPI-yjHyAJ2L0id-170/)
-We use this one to document the discussions and decisions that we make as a user group. Some will lead to structural changes requests and others result in workflow changes. This document stays alive and is intended to be our master documentation for that module.
+We use this to document the discussions and decisions that we make as a user group. Some will lead to structural changes requests and others result in workflow changes. This document stays alive and is intended to be our master documentation for that module.
 
 ### - [Structural Changes Template](https://docs.google.com/document/d/19V6rYzCPe8_u5-JhoCf-sQ0zVDubF9xSHYqApmSaMaA/)
 We use this one to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
