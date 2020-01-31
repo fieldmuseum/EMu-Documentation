@@ -7,6 +7,8 @@ Field Museum documentation for EMu workflows, structural changes, and standardiz
 
 ### - [Structural Changes Template](https://docs.google.com/document/d/19V6rYzCPe8_u5-JhoCf-sQ0zVDubF9xSHYqApmSaMaA/)
 
+### - [Admin Testing Template](https://docs.google.com/document/d/16xxeky2kTEMUM4eW1GPQRQFUvvwUsG-gPhuRFNUWUa0/)
+
 
 ## Other IT & Data-handling Resources
 
