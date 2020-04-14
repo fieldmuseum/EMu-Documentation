@@ -16,7 +16,7 @@ We use this to document the Admin level review of structural changes as returned
 ## Project Workflows and Procedure Documents:
 
 ### - [oVert - 3D data and MorphoSource](https://github.com/fieldmuseum/EMu-Documentation/blob/master/oVert_FMNH_EMu_Data_WorkflowApril2020.pdf)
-This is the EMu assets archiving workflow for the oVert Project (April 2020). It's aim is to create 3D scans of vertebrate taxa and uses the MorphosOurce platform as the primary host and discovery platform for the media.
+This is the EMu assets archiving workflow for the oVert Project (April 2020). It's aim is to create 3D scans of vertebrate taxa and uses the MorphosOurce platform as the primary host and discovery platform for the media. Master copies are archived in EMu as emultimedia records.
 
 
 ## Other IT & Data-handling Resources
