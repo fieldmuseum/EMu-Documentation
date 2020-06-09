@@ -11,7 +11,7 @@ We use this to document the discussions and decisions that we make as a user gro
 We use this to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
 
 ### - [User Group Description Template](https://docs.google.com/document/d/1iJ2I_X79dxPpbptJXkG3lYbekszdSqJL5P5yLTYly_o/)
-We use this to document the creaton of a user group and the registry entries that are necessary to define it. There are accompanying guidelines for power users who wish to request a new group (https://docs.google.com/document/d/1K-kkldur2nQ4umQsbCT7DSPKiyZ9bquaXsC8ngLay98/).
+We use this to document the creaton of a user group and the registry entries that are necessary to define it. There are [accompanying request guidelines]((https://docs.google.com/document/d/1K-kkldur2nQ4umQsbCT7DSPKiyZ9bquaXsC8ngLay98/) for power users when they want a new group created.
 
 ### - [Admin Testing Template](https://docs.google.com/document/d/16xxeky2kTEMUM4eW1GPQRQFUvvwUsG-gPhuRFNUWUa0/)
 We use this to document the Admin level review of structural changes as returned to us from Axiell. It indicates whether developments to a module have be completed as specified in the corresponding structural changes document or not. Once signed off by the Admin team it is returned to Axiell.
