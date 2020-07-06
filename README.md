@@ -1,5 +1,5 @@
 # EMu-Documentation
-Field Museum documentation for EMu workflows, structural changes, and standardization.
+Field Museum documentation for EMu workflows, structural changes, testing and standardization.
 
 ## Documentation Templates:
 One set for each module:
