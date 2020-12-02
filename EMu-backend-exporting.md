@@ -94,7 +94,9 @@ parameters to get a general idea of the purpose of each flag.
 ## TODO/WIP
 We didn't discuss transforming the exported delimited text file into a proper format for insertion into
 your database, along with strategies to do so. Once FMNH gets their workflow in place, I will add our
-process to this document.
+process to this document. Our current workflow involves using IMu --> Solr but if this process is
+faster and more efficient, we will likely start using texsql, texexport and a custom import script
+as a replacement for IMu.
 
 ## Examples
 Please see these examples of commands to run to query and export data.
