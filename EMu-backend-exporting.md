@@ -22,7 +22,7 @@ To start, be sure to be logged in as the `emu` user after you've SSHed into the 
 
 `$ su - emu`
 
-### Verifying EMu module column names
+## Verifying EMu module column names
 Before we start, if you have any confusion as to the actual column names for an EMu module, you can use the
 describe command as you would with most RDMS.
 
@@ -49,7 +49,7 @@ emultimedia[
 ```
 ...
 
-### Querying data using texql and texexport
+## Querying data using texql and texexport
 Next, you can use the texql command, with a here string, to query the EMu database and output that data
 into a text file. Here is an example query that returns all of the IRNs for Botany.
 
@@ -91,8 +91,13 @@ Last, of course we'll need to specify what EMu module we're querying and where t
 While the `texexport` command doesn't have man pages, you can invoke the command `texexport` without any
 parameters to get a general idea of the purpose of each flag.
 
-### Examples
+## TODO/WIP
+We didn't discuss transforming the exported delimited text file into a proper format for insertion into
+your database, along with strategies to do so. Once FMNH gets their workflow in place, I will add our
+process to this document.
+
+## Examples
 Please see these examples of commands to run to query and export data.
 
 * [Botany export](emu-export-examples/botany.sh)
-* [Multimedia CT Scan export](emu-export-examples/ct-scans.sh)
+* [Multimedia CT Scan query](emu-export-examples/ct-scans.sh)
