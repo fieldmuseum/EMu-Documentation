@@ -22,7 +22,7 @@ To start, be sure to be logged in as the `emu` user after you've SSHed into the 
 
 `$ su - emu`
 
-## Verifying EMu module column names
+## EMu module column names
 Before we start, if you have any confusion as to the actual column names for an EMu module, you can use the
 describe command as you would with most RDMS.
 
@@ -64,58 +64,61 @@ file to see how it's formatted.
 `$ tail -n10 botany_irns.txt`
 
 Now that we have all of the IRNs of the records we want to query, we're going to use the `texexport` command to
-query all of the needed data for each record. Here is an example `texexport` command to output data for the
-Botany records from the first step. Please note that this is outputting one record per line in a delimited
-format.
+query all of the data for each record. This is an example `texexport` command to output data for the
+Botany records from the first step. We will need to setup a shell script; you can take a look at our
+[sample shell script](emu-export-examples/botany_export.sh). Make sure the ownership of the shell script is
+emu:emuadmin and make sure it's executable.
 
-`texexport -fdelimited -kbotany_irns.txt -md -ms"@@@" -cirn,SummaryData ecatalogue > botany_records.txt`
+Here are the contents of that file.
 
-The `-f` format flag tells the command that we want the output in delimited format.
+```
+while read irn; do
+    texexport -fidsbrief -l"$irn" ecatalogue >> botany_records.txt
+done < botany_irns.txt
+```
 
-The `-k` flag specifies a text file that contains rows of keys (IRNs) that we'll be using for the query.
+This is a very simple shell script that run the `texexport` command for each line of our `botany_irns.txt` file
+and appends the results to the `botany_records.txt` file. You'll see it looking something like this.
 
-We can also specify our delimiter with the `-ms` flag. You should specify something *unique*, that won't
-be reoccuring in your dataset. Underscores and pipes are probably a bad idea to use, at the Field Museum
-pipe delimiters are often used in summary strings, making it a bad choice for a delimiter. We're using
-`@@@` 3 cherries in this example. Pick something that works for you, even non-visible characters works.
-Here's a
-[discussion](https://stackoverflow.com/questions/6319551/whats-the-best-separator-delimiter-characters-for-a-plaintext-db-file)
-on this topic.
+```
+rownum=1
+irn:1=154014
+SummaryData:1=Lycopersicon pennellii (Correll) D'Arcy, Peru, A. Sagástegui A. 15290, F
+ExtendedData:1=154014
+ExtendedData:2=
+ExtendedData:3=Lycopersicon pennellii (Correll) D'Arcy, Peru, A. Sagástegui A. 15290, F
+CatMuseum:1=Field Museum of Natural History
+CatDepartment:1=Botany
+CatCatalog:1=Botany
+CatCatalogSubset:1=Seed Plants
+CatProject:1=Andean Flowering Plants
+CatControlNumber:1=DILL-12609
+ObjKindOfObject:1=Dried specimen
+ObjObjectNumber:1=2138512
+ObjRepositoryRef:1=64
+ObjRepositoryRefLocal:1=64
+ObjRepositoryLocal:1=F
+ObjCollectionArea:1=Searle herbarium
+...
+###
+```
 
-If you take a look at the `-c` flag, you'll also see we're only exported two fields per record.
-You will likely want to add more fields to this flag. List out the fields you want to export in a
-comma-delimited fashion.
+Note that the three pound signs indicate the end of a record. You can also look for the rownum field to
+indicate the start of a new record.
 
-Last, of course we'll need to specify what EMu module we're querying and where to put the output.
+The main benefit of using the `-fidsbrief` export is that we will get every single non-empty field for each
+record, with key:value pairs for the data. There will be no ambiguity about the fields you need to parse.
+You also *do not* need to specify the fields you want to export. This is a huge win.
 
-While the `texexport` command doesn't have man pages, you can invoke the command `texexport` without any
-parameters to get a general idea of the purpose of each flag.
+You'll notice that fields have a :1, :2, etc. behind their name to indicate multi-value fields, for fields
+that have values more than :1. This will help when you need to parse the text for importing into your database.
 
-## Processing the text output using AWK
-We now have our record data outputted in text format. For FMNH, we're going to use AWK to process the text
-into a JSON format, ingestible by MongoDB.
-A [very simple AWK program](emu-export-examples/process_texexport.awk) can be found in this repo, adjustable
-to your needs. One example is the field delimiter, which is the FS variable that should be changed for
-your setup. The Botany records in our example can be processed and outputted to JSON using this command:
+Last thing, while the `texexport` command doesn't have man pages, you can invoke the command `texexport` without
+any parameters to get a general idea of the purpose of each flag.
 
-`awk -f process_texexport.awk -v cols=$(<cols.txt) botany_records.txt > botany.json`
-
-Please note that this current AWK processing script doesn't account for more complicated fields that are
-multi-value and other complex considerations. Once FMNH has worked out all (most) of the kinks, we will
-upload our final scripts to this repo.
-
-You can provide a simple comma-delimited text file as your list of columns (fields) you have in your
-texexport text file. Keep in mind that you will need to do your due diligence to map the fields correctly.
-
-## TODO/WIP
-We didn't discuss transforming the exported delimited text file into a proper format for insertion into
-your database, along with strategies to do so. Once FMNH gets their workflow in place, I will add our
+## TODO/WIP -- Processing the text output
+We didn't discuss transforming the exported text file into a proper format for insertion into
+your database, along with strategies to do so. Once FMNH gets our workflow in place, I will add our
 process to this document. Our current workflow involves using IMu --> Solr but if this process is
 faster and more efficient, we will likely start using texsql, texexport and a custom import script
 as a replacement for IMu.
-
-## Examples
-Please see these examples of commands to run to query and export data.
-
-* [Botany export](emu-export-examples/botany.sh)
-* [Multimedia CT Scan query](emu-export-examples/ct-scans.sh)
