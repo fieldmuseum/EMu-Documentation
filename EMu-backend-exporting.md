@@ -91,6 +91,22 @@ Last, of course we'll need to specify what EMu module we're querying and where t
 While the `texexport` command doesn't have man pages, you can invoke the command `texexport` without any
 parameters to get a general idea of the purpose of each flag.
 
+## Processing the text output using AWK
+We now have our record data outputted in text format. For FMNH, we're going to use AWK to process the text
+into a JSON format, ingestible by MongoDB.
+A [very simple AWK program](backend-export-examples/process_texexport.awk) can be found in this repo, adjustable
+to your needs. One example is the field delimiter, which is the FS variable that should be changed for
+your setup. The Botany records in our example can be processed and outputted to JSON using this command:
+
+`awk -f process_texexport.awk -v cols=$(<cols.txt) botany_records.txt > botany.json`
+
+Please note that this current AWK processing script doesn't account for more complicated fields that are
+multi-value and other complex considerations. Once FMNH has worked out all (most) of the kinks, we will
+upload our final scripts to this repo.
+
+You can provide a simple comma-delimited text file as your list of columns (fields) you have in your
+texexport text file. Keep in mind that you will need to do your due diligence to map the fields correctly.
+
 ## TODO/WIP
 We didn't discuss transforming the exported delimited text file into a proper format for insertion into
 your database, along with strategies to do so. Once FMNH gets their workflow in place, I will add our
