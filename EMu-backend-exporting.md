@@ -94,7 +94,7 @@ parameters to get a general idea of the purpose of each flag.
 ## Processing the text output using AWK
 We now have our record data outputted in text format. For FMNH, we're going to use AWK to process the text
 into a JSON format, ingestible by MongoDB.
-A [very simple AWK program](backend-export-examples/process_texexport.awk) can be found in this repo, adjustable
+A [very simple AWK program](emu-export-examples/process_texexport.awk) can be found in this repo, adjustable
 to your needs. One example is the field delimiter, which is the FS variable that should be changed for
 your setup. The Botany records in our example can be processed and outputted to JSON using this command:
 
