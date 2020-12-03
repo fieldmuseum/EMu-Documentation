@@ -28,3 +28,4 @@ This is the EMu assets archiving workflow for the oVert Project (April 2020). It
 
 - [Using Awk and R to parse large datasets](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/)
 - [Fastest Way to Load Data Into PostgreSQL Using Python](https://hakibenita.com/fast-load-data-python-postgresql)
+- FMNH [EMu-Reports](https://github.com/fieldmuseum/EMu-Reports/) repo
