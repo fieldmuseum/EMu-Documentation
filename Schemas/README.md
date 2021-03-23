@@ -4,6 +4,7 @@ Output from running EMu schema.pl files through the [convertSchemaToExcel.pl scr
 * fmnh_schema.xls = Field Museum of Natural History schema
 * lac_schema.xls = Natural History Museum of Los Angeles County schema
 * manchester_schema.xls = Manchester Museum schema
+* manchesterart_schema.xls = Manchester Art Gallery schema
 * mcmanus_schema.xls = The McManus: Dundee's Art Gallery and Museum
 * mnhs_schema.xls = Minnesota Historical Society
 * nmai_schema.xls = National Museum of the American Indian
