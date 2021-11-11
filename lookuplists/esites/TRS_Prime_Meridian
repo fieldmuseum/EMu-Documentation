@@ -1,0 +1,6 @@
+Name: TRS Prime Meridian	 
+Column Names Affected: MapTRSPrimeMeridian_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: Yes
+Values: TRSPrimeMeridian_LUTS.csv : Source:http://www.pmproject.org/ 
