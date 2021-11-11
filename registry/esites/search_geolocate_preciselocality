@@ -1,0 +1,18 @@
+<resource>
+<location>
+<text>http://geo-locate.org/web/WebGeoreflight.aspx?v=1&amp
+country=</text>
+<value column="LocCountry_tab" format="url"/>
+<text>&amp
+state=</text>
+<value column="LocProvinceStateTerritory_tab" format="url"/>
+<text>&amp
+county=</text>
+<value column="LocDistrictCountyShire_tab" format="url"/>
+<text>&amp
+locality=</text>
+<value column="SummaryData" format="url"/>
+<text>&amp
+georef=run</text>
+</location>
+</resource>
