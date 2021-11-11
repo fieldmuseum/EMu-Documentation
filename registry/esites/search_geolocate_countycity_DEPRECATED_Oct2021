@@ -1,3 +1,11 @@
+Key1: Group
+Key2: Default
+Key3: Table
+Key4: esites
+Key5: Resource
+Key6: Search GeoLocate - Precise Locality
+
+Value:
 <resource>
 <location>
 <text>http://geo-locate.org/web/webgeoreflight.aspx?v=1&amp
