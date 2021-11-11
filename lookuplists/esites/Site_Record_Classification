@@ -1,0 +1,6 @@
+Title: Site Record Classification 
+Column Names Affected: SitRecordClassification 
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: Yes
+Values: `Aquatic`; `Cultural`; `Terrestrial`
