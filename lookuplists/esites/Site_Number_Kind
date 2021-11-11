@@ -1,0 +1,6 @@
+Name: Site Number Kind
+Column Names Affected: NEW FIELD - Number 
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: “Site Number”; “Field Number”; “Station Number ”; “Locality Number”; “Z Number”; “Camp Site Number”
