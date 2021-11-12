@@ -1,0 +1,6 @@
+Name: Party Source
+Column Names Affected:  NamPartyType
+Lookup Level:  1
+Security: Default: “Locked + Admin”
+Tab Switching: No
+Values: "FMNH Master", "Exhibitions Master", "Geology Master", "Zoology Master", "Action Master", "Anthropology Master", "Library Master", "Photo Archives Master", "Botany Master"
