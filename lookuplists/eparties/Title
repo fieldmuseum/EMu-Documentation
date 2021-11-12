@@ -1,0 +1,6 @@
+Name: Title
+Column Names Affected:  NamTitle
+Lookup Level:  1
+Security: [Default:“Locked + Admin”; “Open + Everyone”; “Locked” + Groups with Edit access]
+Tab Switching: No
+Values:
