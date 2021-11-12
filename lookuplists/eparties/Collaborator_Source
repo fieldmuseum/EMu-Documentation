@@ -1,0 +1,6 @@
+Name: Collaborator Source
+Column Names Affected: [BLANK]
+Lookup Level:  1
+Security: Default: “Locked + Admin”
+Tab Switching: No
+Values: "NACD", "Personal Communication”
