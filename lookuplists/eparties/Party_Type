@@ -1,0 +1,6 @@
+Name: Party Type
+Column Names Affected:  NamPartyType
+Lookup Level:  1
+Security: Default: “Locked + Admin”
+Tab Switching: Yes
+Values: “Address”, “Collaboration”, “Cultural Affiliation”, “Organization”, “Person”
