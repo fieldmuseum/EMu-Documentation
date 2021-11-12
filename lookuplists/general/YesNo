@@ -1,0 +1,5 @@
+Column Names Affected:  eparties.Preferred
+Lookup Level:  1
+Security: Default: “Locked + Admin”
+Tab Switching: No
+Values: "Yes", "No"
