@@ -1,5 +1,5 @@
 Name: YesNoUnknown
-Column Names Affected:  eparties.Deceased
+Column Names Affected:  eparties.BioDeceased
 Lookup Level:  1
 Security: Default: “Locked + Admin”
 Tab Switching: No
