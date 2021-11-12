@@ -1,5 +1,5 @@
 Name: Political Classification Rank
-Column Names Affected: PolPoliticalRank
+Column Names Affected: PolPoliticalRank; PolPD2Rank; PolPD3Rank
 Lookup Level: 1
 Security: “Locked + Admin”
 Tab Switching: No
