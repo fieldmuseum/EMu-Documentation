@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,ebibliography,Resource,Search oclc,"<resource>;<location>;<if column=""BooVolume"" filled=""yes"">;<text>http://fieldmuseumlibrary.worldcat.org/oclc/</text>;<value column=""BooVolume"" format=""url""/>;</if>;</location>;</resource>"
