@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,eparties,Resource,Search ORCiD,"<resource>;<location>;<text>https://orcid.org/orcid-search/search?searchQuery=</text>;<value column=""NamFullName"" format=""url""/>;</location>;</resource>"
