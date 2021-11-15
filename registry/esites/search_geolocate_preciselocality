@@ -1,26 +1,2 @@
-Key1: Group
-Key2: Default
-Key3: Table
-Key4: esites
-Key5: Resource
-Key6: Search GeoLocate - County/City
-
-Value:
-<resource>
-<location>
-<text>http://geo-locate.org/web/WebGeoreflight.aspx?v=1&amp
-country=</text>
-<value column="PolPD1" format="url"/>
-<text>&amp
-state=</text>
-<value column="PolPD2" format="url"/>
-<text>&amp
-county=</text>
-<value column="PolPD3" format="url"/>
-<text>&amp
-locality=</text>
-<value column="PolLocality" format="url"/>
-<text>&amp
-georef=run</text>
-</location>
-</resource>
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,esites,Resource,Search GeoLocate - Precise Locality,"<resource>;<location>;<text>http://geo-locate.org/web/WebGeoreflight.aspx?v=1&amp;country=</text>;<value column=""PolPD1"" format=""url""/>;<text>&amp;state=</text>;<value column=""PolPD2"" format=""url""/>;<text>&amp;county=</text>;<value column=""PolPD3"" format=""url""/>;<text>&amp;locality=</text>;<value column=""PolLocality"" format=""url""/>;<text>&amp;georef=run</text>;</location>;</resource>"
