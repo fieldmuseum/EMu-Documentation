@@ -1,0 +1,62 @@
+# How to document Centroid lat lons
+**Used By**: ALL
+**In Use?**: Yes
+
+_**DESCRIPTION**_
+When a high level site record is created for an area that does NOT include a descriptive precise locality then a lat lon may be associated with it HOWEVER this should be indicated in the Lat/Lon notes field as “Generalised area centroid”. 
+
+To indicate that a lat/lon pair associated with a site reference is a generalized centroid with NO error radius you should:
+Set: Determination Method = the text ”[source] Centroid” 
+If the Political Rank = Country
+= the text ”[source] Country Centroid” 
+
+Determination Source = “[source]” 
+		
+e.g. Determination Method = TGN Centroid; Determination Source = TGN
+	
+These will then map to DwC fields: georeferenceProtocol and georeferenceSources respectively. 
+
+	NOTE: It is no longer necessary to CAPITALISE locality names for this purpose.
+
+Example from TGN
+http://www.getty.edu/research/tools/vocabularies/tgn/
+
+You must indicate if a latitude and longitude pair is the centroid of polygon using at least one of the following methods:
+
+* Include the vertices of the polygon in the Latitude/Longitude Details table (the start and end pair should be the same.
+* Include an error radius and units, that incompasses the entire area of the polygon.
+* Include the term "Centroid" in the Determination Method field and also the term "Country" if the Political Rank of the record = Country
+
+# Location Record Identifiers
+**Used By:** ALL
+**In Use?:** Yes
+
+_**DESCRIPTION:**_
+Each site record in EMu has an internal unique identifier of type UUID4. This locationId should be used to refer to the site record itself and NOT to the location as a unique entity.  It should be used when sharing site records with external collaborators who wish to georeference as an aid to repatriation of data. It should ALWAYS be set as:
+
+Preferred = No 
+
+because it is an id unique only to the Field Museum not any canonical reference source.
+
+# How to document no site information?:
+**Used By:** ALL
+**In Use?:** Yes
+
+_**DESCRIPTION:**_
+Where there is genuinely no known location site information attach to the appropriate NONE record. There is one for Terrestrial (irn 587709) and one for Aquatic (26166). 
+
+
+# How to Redact Locality and Lat/Long Data
+**Used By:** ALL
+**In Use?:** PRE-development [in use, but may need review if Darwin Core mappings change]
+
+_**DESCRIPTION:**_
+Location (URL) https://docs.google.com/document/d/188v_jRiBW2ktoKavGxXuH48iML_JbsExyir0WLDOwRI/
+
+
+# How to Handle Non-collection Sites [document, post-dev]
+**Used By:** [Group Names]
+**In Use?:** POST (No, requires one or more structural changes to be in place first)
+
+_**DESCRIPTION:**_
+Location (URL): [NOTE: Info related to this workflow is here: ecatalogue Provenience Tab]
