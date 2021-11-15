@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,etaxonomy,Resource,Search IUCN Red List,"<resource>;<location>;<text>http://iucn-redlist-api.heroku.com/go/</text>;<value column=""ClaGenus"" format=""url""/>;<text>-</text>;<value column=""ClaSpecies"" format=""url""/>;</location>;</resource>"

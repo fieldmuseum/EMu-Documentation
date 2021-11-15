@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,BotanyMgr,Table,etaxonomy,Resource,Search IPNI (family #),"<resource>;<location>;<if column=""ClaFamilyNumber"" filled=""yes"">;<text>http://www.ipni.org/ipni/idPlantNameSearch.do?id=</text>;<value column=""ClaFamilyNumber"" format=""url""/>;<title>;<text>Lookup IPNI using family id </text>;<value column=""ClaFamilyNumber""/>;</title>;</if>;</location>;</resource>"

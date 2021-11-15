@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,etaxonomy,Resource,Search EOL,"<resource>;<location>;<text>http://www.eol.org/search?q=</text>;<value column=""ClaGenus"" format=""url""/>;<text>+</text>;<value column=""ClaSpecies"" format=""url""/>;</location>;</resource>"
