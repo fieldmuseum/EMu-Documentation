@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,ecatalogue,Resource,Search fmnh collections,"<resource>;<location>;<text>http://collections-</text>;<value column=""CatDepartment"" format=""url"" />;<text>.fieldmuseum.org/catalogue/</text>;<value column=""irn"" format=""url""/>;</location>;</resource>"
