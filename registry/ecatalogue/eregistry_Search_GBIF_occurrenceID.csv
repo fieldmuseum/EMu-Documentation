@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,ecatalogue,Resource,Search GBIF (occurrenceID),"<resource>;<location>;<text>https://www.gbif.org/occurrence/search?occurrence_id=</text>;<value column=""AdmGUIDValue_tab"" format=""url"" />;</location>;</resource>"

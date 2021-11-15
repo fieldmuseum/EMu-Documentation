@@ -1,0 +1,2 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Value
+Group,Default,Table,ecatalogue,Resource,Search MO (Accession No.),"<resource>;<location>;<text>http://www.tropicos.org/SpecimenSearch.aspx?accession=</text>;<value column=""GeoCatalogNo"" format=""url""/>;</location>;</resource>"
