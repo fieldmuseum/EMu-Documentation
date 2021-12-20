@@ -19,8 +19,14 @@ This is for power users when they want a new group created.
 We use this to document the Admin level review of structural changes as returned to us from Axiell. It indicates whether developments to a module have be completed as specified in the corresponding structural changes document or not. Once signed off by the Admin team it is returned to Axiell.
 
 
-## Other IT & Data-handling Resources
+## Other FMNH IT & Data-handling Resources
 
 - [Using Awk and R to parse large datasets](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/)
 - [Fastest Way to Load Data Into PostgreSQL Using Python](https://hakibenita.com/fast-load-data-python-postgresql)
 - FMNH [EMu-Reports](https://github.com/fieldmuseum/EMu-Reports/) repo
+
+
+## Other People's Jolly Good Repo's
+
+- [South Australian Museum](https://github.com/samuseum)
+- [Museum of New Zealand Te Papa Tongarewa](https://github.com/te-papa)
