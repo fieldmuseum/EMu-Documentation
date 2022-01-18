@@ -30,3 +30,6 @@ We use this to document the Admin level review of structural changes as returned
 
 - [South Australian Museum](https://github.com/samuseum)
 - [Museum of New Zealand Te Papa Tongarewa](https://github.com/te-papa)
+- [GBIF](https://github.com/gbif)
+- [TDWG](https://github.com/tdwg)
+
