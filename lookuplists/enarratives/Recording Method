@@ -1,0 +1,6 @@
+Name: Recording Method
+Column Names Affected: IntRecordingMethod_tab
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: manuscript notes; tape-recorded; video-recorded
