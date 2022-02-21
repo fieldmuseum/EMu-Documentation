@@ -1,0 +1,6 @@
+Name: Subjects Keywords
+Column Names Affected: enarratives.NarContributorRole_tab; emultimedia.DetContributorRole_tab; ebibliography.OthRole_tab, ebibliography.BooRole_tab, ebibliography.JouRole_tab, ebibliography.WebRole_tab, ebibliography.ManRole_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Artist; Author; Compiler; Contributor; Editor; Funder; Illustrator; Image Source; Organizer; Participant; Photographer; Pictured; Producer; Project leader; Provenance; Scanner
