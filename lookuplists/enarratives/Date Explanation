@@ -1,0 +1,6 @@
+Name: Date Explanation
+Column Names Affected: NarExplanation_tab
+Lookup Level: 1
+Security: “TBD”
+Tab Switching: No
+Level 1 Values: Creation Date; Date Posted; Revision Date; Taxonomic correction; Transcribed; Website 
