@@ -1,0 +1,6 @@
+Name: Interview Type
+Column Names Affected: IntInterviewType_tab
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: By phone; In person
