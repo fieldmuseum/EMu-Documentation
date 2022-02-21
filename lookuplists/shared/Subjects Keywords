@@ -1,6 +1,6 @@
-Subjects Keywords
-Column name(s) Affected: DesSubjects_tab; (emultimedia DetSubject_tab)
+Name: Subjects Keywords
+Column Names Affected: enarratives.DesSubjects_tab; emultimedia.DetSubject_tab
 Lookup Level: 1
-Security: Locked + Manager Groups 
-Usage: [Shared with emultimedia. See Discussion doc for description]
-
+Security: “Locked + Manager Groups ”
+Tab Switching: No
+Level 1 Value: [Googledoc](https://docs.google.com/document/d/1FohcgU9n8fT8mXvNJwTj1k6BlKniV0Oy5kjX5bjT6Jo
