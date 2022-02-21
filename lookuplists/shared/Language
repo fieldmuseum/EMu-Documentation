@@ -1,0 +1,6 @@
+Name: Language
+Column Names Affected: enarratives.NarLanguage_tab; eparties.NamPrimaryLanguage; emultimedia.DetLanguage_tab; ebibliography.ArcPublicationLanguage, ebibliography.BooPublicationLanguage, ebibliography.BucPublicationLanguage_tab, ebibliography.CitPublicationLanguage, ebibliography.ArtPublicationLanguage, ebibliography.JouPublicationLanguage, ebibliography.ManPublicationLanguage, ebibliography.OthPublicationLanguage, ebibliography.WebPublicationLanguage; 
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: See See [ISO standard 639 Values[(https://www.iso.org/iso-639-language-codes.html)
