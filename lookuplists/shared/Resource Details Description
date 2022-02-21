@@ -1,0 +1,5 @@
+Name: Resource Details Description
+Column Names Affected: enarratives.NarType_tab; emultimedia.DetResourceDetailsDescription_tab
+Security: “TBD”
+Tab Switching: No
+Level 1 Values: Posted; Published
