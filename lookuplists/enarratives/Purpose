@@ -1,19 +1,17 @@
 
 Name: Pupose
 Column Names Affected: DesPurpose,DesType_tab
-Lookup Level: 1
+Lookup Level: 1-2
 Security: “Locked + Admin”
 Tab Switching: No
-Values: "Arrondissement";"Autonomous Community";"Autonomous Region";"Borough";"Canton";"City";"Continent";"Country";"County";"Crown Dependency";"Department";"District";"Federal District";"Federal Subject";"Federal Territory";"Kingdom";"LMA";"Municipality";"Nation";"National District";"Oblast";"Oblast/Republic";"Parish";"pd2";"pd3";"pd4";"Plot/Transect";"Precise Locality";"Prefecture";"Province (wilaya)";"Region";"Regional County Municipality";"Sample Area";"Semi-independent Entity";"Senatorial District";"Shire";"State";"Subdivision";"Subprefecture";"Territory";"Town";"Village"
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+Level 1 Value: Inventory; 
+Level 2 Values:  “Rapid Inventory Report”
+
+Level 1 Value: Transcription
+“Exhibition Label”;  “Tag”;  “Graphics Text”; “Label”;  
+
+Level 1 Value: Web Narrative
+Level 2 Values:  “Home page”; “About page”; “eevents page”; “enarrative page”; “eparties page”; “esites page”; “etaxonomy page”; “external link”; “form”; “js interactive”; “index”; “interview page”; “Subsection”; 
+
+Level 1 Value: Description
+Level 2 Values: “Basic Description”; “Economic Botany”; “Full Description”; “General”; “Object Description”;  “Original Description”; “Osteology Summary”; “Technical Description”; “Photo Description”; “Physical Description”; “Collection”; “Source Description”; “Sub Description”; “Archaeological Context”; “Correction”; “Document Description”; “Exhibitions Provisional Object List”; “Exhibitions Registration”; “Identification”; “Object History”; “Oral History”; “Sound Recording”; “Theme”; “VSR supplementary”
