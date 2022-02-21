@@ -8,7 +8,7 @@ Level 1 Value: Inventory;
 Level 2 Values:  “Rapid Inventory Report”
 
 Level 1 Value: Transcription
-“Exhibition Label”;  “Tag”;  “Graphics Text”; “Label”;  
+Level 2 Values: “Exhibition Label”;  “Tag”;  “Graphics Text”; “Label”;  
 
 Level 1 Value: Web Narrative
 Level 2 Values:  “Home page”; “About page”; “eevents page”; “enarrative page”; “eparties page”; “esites page”; “etaxonomy page”; “external link”; “form”; “js interactive”; “index”; “interview page”; “Subsection”; 
