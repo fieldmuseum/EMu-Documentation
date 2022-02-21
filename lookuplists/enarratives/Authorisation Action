@@ -1,0 +1,6 @@
+Name: Authorisation Action
+Column Names Affected: CorCorrespondenceType_tab
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: Approved by Senior Curator; Authorised; Authorised for internal use; Authorised for publication; Created; Edited; Verified
