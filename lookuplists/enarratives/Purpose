@@ -1,6 +1,6 @@
 
-Name: Political Classification Rank
-Column Names Affected: PolPoliticalRank; PolPD2Rank; PolPD3Rank
+Name: Pupose
+Column Names Affected: DesPurpose,DesType_tab
 Lookup Level: 1
 Security: “Locked + Admin”
 Tab Switching: No
