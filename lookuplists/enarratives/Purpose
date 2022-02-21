@@ -1,0 +1,19 @@
+
+Name: Political Classification Rank
+Column Names Affected: PolPoliticalRank; PolPD2Rank; PolPD3Rank
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: "Arrondissement";"Autonomous Community";"Autonomous Region";"Borough";"Canton";"City";"Continent";"Country";"County";"Crown Dependency";"Department";"District";"Federal District";"Federal Subject";"Federal Territory";"Kingdom";"LMA";"Municipality";"Nation";"National District";"Oblast";"Oblast/Republic";"Parish";"pd2";"pd3";"pd4";"Plot/Transect";"Precise Locality";"Prefecture";"Province (wilaya)";"Region";"Regional County Municipality";"Sample Area";"Semi-independent Entity";"Senatorial District";"Shire";"State";"Subdivision";"Subprefecture";"Territory";"Town";"Village"
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
