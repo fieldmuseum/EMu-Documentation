@@ -1,5 +1,5 @@
 Name: YesNoUnknown
-Column Names Affected:  eparties.BioDeceased
+Column Names Affected:  eparties.BioDeceased; enarratives.NarFMNHApproval_tab
 Lookup Level:  1
 Security: Default: “Locked + Admin”
 Tab Switching: No
