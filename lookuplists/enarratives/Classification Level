@@ -1,0 +1,13 @@
+Name: Classification Level
+Column Names Affected: ClaLevel1; ClaLevel2; ClaLevel3; ClaLevel4; ClaLevel5; ClaLevel6; ClaLevel7; ClaLevel8
+Lookup Level: 1-8
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: 
+Level 2 Values: 
+Level 3 Values: 
+Level 4 Values: 
+Level 5 Values: 
+Level 6 Values: 
+Level 7 Values: 
+Level 8 Values: 
