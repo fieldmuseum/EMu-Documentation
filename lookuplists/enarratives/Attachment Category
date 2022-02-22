@@ -1,0 +1,6 @@
+Name: Attachment Category
+Column Names Affected: EventCategory; TaxonomyCategory; SitesCategory; CollectionEventCategory
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: In cooperation with; Web Development; By; Contributions form; Parker/Gentry award recipient; Editor
