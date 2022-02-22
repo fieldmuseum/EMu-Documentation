@@ -1,0 +1,6 @@
+Name: Narratives Note Type
+Column Names Affected: NteType_tab
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: Bounds; Exhibit Caption; General Note; MPM objects; Multimedia; Original Text; Original URL; Species expected; Species observed
