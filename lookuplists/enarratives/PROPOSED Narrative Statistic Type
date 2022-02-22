@@ -1,0 +1,6 @@
+Name: Narrative Statistic Type
+Column Names Affected: EventCategory; TaxonomyCategory; SitesCategory; CollectionEventCategory
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: Notes - Transfer Rapid Inventory data
