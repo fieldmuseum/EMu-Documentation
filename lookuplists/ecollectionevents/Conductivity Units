@@ -1,0 +1,6 @@
+Name: Pupose
+Column Names Affected: AquConductivityUnits
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: µS/cm, pH mv; 
