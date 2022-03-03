@@ -1,0 +1,6 @@
+Name: Publication Type
+Column Names Affected: BibRecordType
+Lookup Level: 1
+Security: “Locked + Managers”
+Tab Switching: No
+Level 1 Values: Article; Book; Chapter; Citation; Journal; Manuscript; Map; Web Page
