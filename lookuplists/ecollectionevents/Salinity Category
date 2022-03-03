@@ -1,0 +1,6 @@
+Name: Salinity Category
+Column Names Affected: AquWaterSalinityCategory
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: “Marine”; “Freshwater”; “Estuarine”
