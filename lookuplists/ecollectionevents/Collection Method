@@ -1,5 +1,5 @@
 Name: Subjects Keywords
-Column Names Affected: ColCollectionMethod, SigHowSighted
+Column Names Affected: ColCollectionMethods_tab 
 Lookup Level: 1
 Security: “Locked + Admin”
 Tab Switching: No
