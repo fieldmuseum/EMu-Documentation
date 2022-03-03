@@ -1,4 +1,4 @@
-Name: Pupose
+Name: Conductivity Units
 Column Names Affected: AquConductivityUnits
 Lookup Level: 1
 Security: “Locked + Admin”
