@@ -1,0 +1,6 @@
+Name: Water Hardness Units
+Column Names Affected: AquWaterHardnessUnits
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: TBD
