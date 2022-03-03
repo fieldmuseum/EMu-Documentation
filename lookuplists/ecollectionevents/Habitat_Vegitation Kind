@@ -1,0 +1,6 @@
+Name: Habitat/Vegitation Kind
+Column Names Affected: HabHabitatVegetationKind_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: “Habitat”; “Vegetation”
