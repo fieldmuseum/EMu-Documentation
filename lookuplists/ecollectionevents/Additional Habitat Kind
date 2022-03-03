@@ -1,0 +1,16 @@
+Name: Pupose
+Column Names Affected: HabTerrestrialDescription_tab, HabAquaticDescription_tab
+Lookup Level: 1-2
+Security: “Locked + Mgr”
+Tab Switching: No
+Level 1 Value: ColCollectionType = Terrestrial 
+Level 2 Values: “Topography”; “Aspect”; “Vegetation”; “Ecological Zone”
+
+Level 1 Value: ColCollectionType = Aquatic
+Level 2 Values:  “Substrate”;  “Sediment”; “Lotic - Riffle”; “Lotic - Pool”; “Lotic - Run”; “Lentic - Limnetic”; “Lentic - Profundal”; “Lentic - Littoral”; “Lentic - Benthic”; “Hygropetric”; “Marsh”; “Swamp”; “Side Pool”;  “Subterranean Water”; “Spring”
+
+Level 1 Value: ColCollectionType = Human Observation
+Level 2 Values: TBD
+
+Level 1 Value: ColCollectionType = Machine Observation
+Level 2 Values: TBD
