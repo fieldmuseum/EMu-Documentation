@@ -1,0 +1,6 @@
+Name: Subjects Keywords
+Column Names Affected: ColCollectionType 
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Terrestrial; Aquatic; Human Observation; Machine Observation
