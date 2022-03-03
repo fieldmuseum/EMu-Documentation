@@ -1,0 +1,6 @@
+Name: Pupose
+Column Names Affected: ecollectionevents.ColSiteQualifier
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: “Uncertain”; “Possible”; “Probable”; “Confirmed”; NULL
