@@ -1,0 +1,6 @@
+Name: Island Grouping Rank
+Column Names Affected: LocIslandRank
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: Islan; Island Group; Island sub-group
