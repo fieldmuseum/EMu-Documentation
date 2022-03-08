@@ -1,0 +1,6 @@
+Name: Waterbody Classification Rank
+Column Names Affected: ClaWaterbodyRank
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: Bay; Drainage Basin; Fjord; Gulf; Lagoon; Ocean; Sea; Sound; Strait
