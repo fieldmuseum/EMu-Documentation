@@ -1,4 +1,4 @@
-Name: Waterbody Freshwater River Basin Rank
+Name: Freshwater River Basin Rank
 Column Names Affected: ClaFreshwaterRiverBasinRank
 Lookup Level: 1
 Security: “Locked + Admin”
