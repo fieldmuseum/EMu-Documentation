@@ -1,0 +1,6 @@
+Name: Waterbody Region Type
+Column Names Affected: SitGeographicType_tab
+Lookup Level: 1
+Security: “Open + Everyone”
+Tab Switching: No
+Values: TBD
