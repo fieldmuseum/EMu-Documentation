@@ -1,0 +1,6 @@
+Name: Freshwater Classification Rank
+Column Names Affected: ClaFreshwaterRank
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: Canal; Lake; Pond; Reservoir; River; River Basin; Stream
