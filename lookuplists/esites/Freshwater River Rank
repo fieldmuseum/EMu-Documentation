@@ -1,0 +1,6 @@
+Name: Freshwater River Rank
+Column Names Affected: ClaFreshwaterRiverBasinRank
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: River Basin; River 
