@@ -4,7 +4,6 @@ Lookup Level: 1
 Security: “Locked + Admin”
 Tab Switching: No
 Values: "Africa", "Antarctica", "Asia", "Europe", "North America", "Oceania", "South America", "None"
-Notes:
-Remember that the term Pacific for Cultural localities is now located in the Cultural Region field and mapped to Darwin Core. Use the value Oceania.
+Notes: Remember that the term Pacific for Cultural localities is now located in the Cultural Region field and mapped to Darwin Core. Use the value Oceania.
 Use the value None if the continent truly is unknown.
 Combine terms with AND or OR in alphabetical order if necessary. For example 'Asia AND Europe' instead of 'Europe and Asia'.
