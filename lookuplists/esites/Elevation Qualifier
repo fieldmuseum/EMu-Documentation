@@ -1,0 +1,6 @@
+Name: Elevation Qualifier
+Column Names Affected: LocContinent_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: Uncertain; Possible; Probable: Confirmed; +/- ; NULL
