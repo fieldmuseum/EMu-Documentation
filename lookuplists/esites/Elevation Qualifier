@@ -1,5 +1,5 @@
 Name: Elevation Qualifier
-Column Names Affected: LocContinent_tab
+Column Names Affected: MapASLQualifier; MapQualifier
 Lookup Level: 1
 Security: “Locked + Admin”
 Tab Switching: No
