@@ -1,0 +1,6 @@
+Name: Site Synonym
+Column Names Affected: SynKind_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: “Heterotopic”, “Homotopic”, “Alternate Name” 
