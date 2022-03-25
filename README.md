@@ -32,4 +32,5 @@ We use this to document the Admin level review of structural changes as returned
 - [Museum of New Zealand Te Papa Tongarewa](https://github.com/te-papa)
 - [GBIF](https://github.com/gbif)
 - [TDWG](https://github.com/tdwg)
+- [IMAmuseum's EMu reports](https://github.com/IMAmuseum/EMu-reports)
 
