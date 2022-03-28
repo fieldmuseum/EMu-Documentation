@@ -17,4 +17,4 @@ Level 2 Values: X-ray
 Level 1 Value: Text 
 Level 2 Values: Document | replaces Document; Permit
 Level 1 Value: URL
-Notes: These values align with controlled vocab for Audubon type, LOC, and MARC - field {dc:type} & {dcterms:type} -- https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Type See also: http://id.loc.gov/ and  http://id.loc.gov/vocabulary/mediaTypes.html. Post-development: New subtype field will accommodate 2nd values -- e.g., "CT Data" subtype within "Image" type.  Pre-development, use "Image | CT Data". PDFs of anything text-based (e.g., Image Release Forms, articles) --> Resource Type = "Text"
+Notes: These values align with controlled vocab for Audubon type, LOC, and MARC - field {dc:type} & {dcterms:type} - https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Type See also: http://id.loc.gov/ and  http://id.loc.gov/vocabulary/mediaTypes.html. Post-development: New subtype field will accommodate 2nd values -- e.g., CT Data subtype within Image type.  Pre-development, use Image | CT Data. PDFs of anything text-based (e.g., Image Release Forms, articles) --> Resource Type = Text
