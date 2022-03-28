@@ -1,0 +1,7 @@
+Name: Other Number Source
+Column Names Affected: DetResourceDetailsDescription_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: TBD
+Notes: Use No. NOT # or Number | Accn NOT Accession | Catalogue NOT Catalog | Loan NOT Invoice
