@@ -1,0 +1,20 @@
+Name: Resource Type
+Column Names Affected: DetResourceDetailsDescription_tab, DetResourceSubtype
+Lookup Level: 1-2
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: Dataset
+Level 2 Values: Sequence 
+Level 1 Value: Image 
+Level 2 Values: 3D model; CT Data; Image Set | e.g. replaces Ortery Image Sequence a
+Level 1 Value: InteractiveResource
+Level 1 Value: MovingImage 
+Level 2 Values: Video; Animation
+Level 1 Value: Software
+Level 1 Value: Sound | replaces/includes Audio
+Level 1 Value: StillImage
+Level 2 Values: X-ray
+Level 1 Value: Text 
+Level 2 Values: Document | replaces Document; Permit
+Level 1 Value: URL
+Notes: These values align with controlled vocab for Audubon type, LOC, and MARC - field {dc:type} & {dcterms:type} -- https://terms.tdwg.org/wiki/Audubon_Core_Term_List#Type See also: http://id.loc.gov/ and  http://id.loc.gov/vocabulary/mediaTypes.html. Post-development: New subtype field will accommodate 2nd values -- e.g., "CT Data" subtype within "Image" type.  Pre-development, use "Image | CT Data". PDFs of anything text-based (e.g., Image Release Forms, articles) --> Resource Type = "Text"
