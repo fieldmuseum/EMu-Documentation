@@ -1,0 +1,7 @@
+Name: Subject Orientation
+Column Names Affected: DudSubjectOrientation
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: Anterior; Dorsal; Lateral; Posterior; Ventral; Distal; Labial; Lingual; Occlusal; Back; Bottom; Front; Key; Left; Reverse; Right; Side; Top; Proper Front; Proper Left; Proper Right
+Notes: Standards: If new values are needed, try to use corresponding terms in standardized ontologies: Biological Spatial Ontology - http://purl.bioontology.org/ontology/BSPO | https://fairsharing.org/FAIRsharing.newa3z 
