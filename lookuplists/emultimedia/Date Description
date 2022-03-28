@@ -1,0 +1,6 @@
+Name: Date Description
+Column Names Affected: DetResourceDetailsDescription_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: Acquired; Created | The date the digital media was generated; Created | Analog film originals, slides, negatives, other film; ; Digital Transfer | The date a physical object/piece of media was digitized; Production | For video, the start date of filming; Published | The date media is released online or otherwise made public; Scanned
