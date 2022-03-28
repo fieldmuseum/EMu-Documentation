@@ -1,0 +1,6 @@
+Name: Creator Role
+Column Names Affected: MulMultimediaCreatorRole_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: Artist; Author; Compiler; Creator; Designer; Developer; Digitizer; Editor; Funder; Illustrator; Interviewer; Modeler; Organizer; Participant; Photographer; Pictured; Producer; Project leader; Radiographer; Recorder; Scanner; Transcriber
