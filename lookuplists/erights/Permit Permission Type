@@ -1,0 +1,7 @@
+Name: Permit Permission Type
+Column Names Affected: JouAbbreviatedTitleSource
+Lookup Level: 1
+Security: “Locked + Manager-level groups, AnthroConsultation, ExhibitsRegistration”
+Tab Switching: No
+Level 1 Values:Collecting Permit; Contract; Controlled Permit; Copyright License; Transport Permit; MOU; MTA; Operator License; Possession Permit; Restricted Collecting Permit
+Notes:
