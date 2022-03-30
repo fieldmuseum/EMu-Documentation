@@ -1,0 +1,7 @@
+Name: Rights Type
+Column Names Affected: RigType
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: “Agreement”, “Restrictions”, “Permit”, “Copyright”, “Public Domain”, “Template”, “TK Labels”
+Notes: 
