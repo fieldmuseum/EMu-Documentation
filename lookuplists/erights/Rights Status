@@ -1,0 +1,7 @@
+Name: Rights Status
+Column Names Affected: JouAbbreviatedTitleSource
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: “current”, “expired”, “up for renewal”, “pending”
+Notes:
