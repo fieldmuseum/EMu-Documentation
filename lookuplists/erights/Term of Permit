@@ -1,4 +1,4 @@
-Name: Permit Terms of Permit
+Name: Term of Permit
 Column Names Affected: PerPermitTerm
 Lookup Level: 1
 Security: “Locked + Admin”
