@@ -1,0 +1,7 @@
+Name: Permit Terms of Permit
+Column Names Affected: PerPermitTerm
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: TBD
+Notes:
