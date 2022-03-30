@@ -1,5 +1,5 @@
 Name: Permit Permission Type
-Column Names Affected: JouAbbreviatedTitleSource
+Column Names Affected: PerPermissionType
 Lookup Level: 1
 Security: “Locked + Manager-level groups, AnthroConsultation, ExhibitsRegistration”
 Tab Switching: No
