@@ -1,5 +1,5 @@
 # EMu-Documentation
-Field Museum documentation for EMu workflows, structural changes, testing and standardization.
+Field Museum documentation for EMu workflows, structural changes, testing, standardization.
 
 ## Documentation Templates:
 One set for each module:
@@ -18,6 +18,9 @@ This is for power users when they want a new group created.
 ### - [Admin Testing Template](https://docs.google.com/document/d/16xxeky2kTEMUM4eW1GPQRQFUvvwUsG-gPhuRFNUWUa0/)
 We use this to document the Admin level review of structural changes as returned to us from Axiell. It indicates whether developments to a module have be completed as specified in the corresponding structural changes document or not. Once signed off by the Admin team it is returned to Axiell.
 
+
+## IPT at the Field Museum
+- [Frequently Asked Quetions about the IPT](https://github.com/fieldmuseum/EMu-Documentation/discussions?discussions_q=label%3Aipt+)
 
 ## Other IT & Data-handling Resources
 
