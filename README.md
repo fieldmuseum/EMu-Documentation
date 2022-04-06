@@ -20,14 +20,13 @@ We use this to document the Admin level review of structural changes as returned
 
 
 ## IPT at the Field Museum
-- [Frequently Asked Quetions about the IPT](https://github.com/fieldmuseum/EMu-Documentation/discussions?discussions_q=label%3Aipt+)
+- [Frequently Asked Questions about the IPT](https://github.com/fieldmuseum/EMu-Documentation/discussions?discussions_q=label%3Aipt+)
 
 ## Other IT & Data-handling Resources
 
 - [Using Awk and R to parse large datasets](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/)
 - [Fastest Way to Load Data Into PostgreSQL Using Python](https://hakibenita.com/fast-load-data-python-postgresql)
 - FMNH [EMu-Reports](https://github.com/fieldmuseum/EMu-Reports/) repo
-
 
 ## Other People's Jolly Good Repo's
 
