@@ -1,0 +1,7 @@
+Name: Common Name Languages
+Column Names Affected: ComLanguage_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: 
+Notes: Should be deprecated and replaced with Language lookup
