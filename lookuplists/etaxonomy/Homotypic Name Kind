@@ -1,0 +1,7 @@
+Name: Homotypic Name Kind
+Column Names Affected: HomKind_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Combination; Other
+Notes: 
