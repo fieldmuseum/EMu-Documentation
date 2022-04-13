@@ -1,0 +1,7 @@
+Name: Parent Sex
+Column Names Affected: ClaHybridParent1Sex, ClaHybridParent2Sex
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Female; Male; Unknown
+Notes: To be deprecated on favour of shared Sex lookup
