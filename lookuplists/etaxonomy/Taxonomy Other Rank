@@ -1,0 +1,7 @@
+Name: Taxonomy Other Rank
+Column Names Affected: ClaOtherRank_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Aberration; Form; Hybrid; Proles; Race; Subform; Subsection; Subvariety; Variety
+Notes: 
