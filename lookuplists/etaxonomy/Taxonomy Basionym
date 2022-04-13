@@ -1,0 +1,7 @@
+Name: Taxonomy Basionym 
+Column Names Affected: PriIsBasionym
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Yes; No
+Notes: Other values pending Action/Botany review - e.g., [Nancy H Notes on “Basionym”]
