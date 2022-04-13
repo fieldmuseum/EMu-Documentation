@@ -1,0 +1,36 @@
+Name: Legitimacy / Availability Status
+Column Names Affected: TaxAvailabilityStatus, 
+Lookup Level: 1-4
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Value: ICZN; ICZN-P
+Level 2 Value: Available
+Level 3 Value: Valid
+Level 4 Value: NULL
+
+Level 1 Value: ICZN; ICZN-P
+Level 2 Value: Available
+Level 3 Value: Invalid
+Level 4 Value: Subjectively Invalid; Objectively Invalid
+
+Level 1 Value: ICZN; ICZN-P
+Level 2 Value: Unavailable
+Level 3 Value: NULL
+Level 4 Value: NULL
+
+Level 1 Value: ICBN; ICBN-P; ICN
+Level 2 Value: Valid
+Level 3 Value: Legitimate
+Level 4 Value: NULL
+
+Level 1 Value: ICBN; ICBN-P; ICN
+Level 2 Value: Valid
+Level 3 Value: Illegitimate
+Level 4 Value: NULL
+
+Level 1 Value: ICBN; ICBN-P; ICN
+Level 2 Value: Invalid
+Level 3 Value: NULL
+Level 4 Value: NULL
+
+Notes:
