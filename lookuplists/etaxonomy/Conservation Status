@@ -1,0 +1,7 @@
+Name: Conservation Status
+Column Names Affected: GeoStatus_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Least Concern; Near Threatened; Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, Extinct
+Notes: replaces Geographic Status lookup
