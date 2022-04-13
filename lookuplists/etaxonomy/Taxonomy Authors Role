@@ -1,0 +1,7 @@
+Name: Taxonomy Authors Role
+Column Names Affected: AutCombAuthorsRole_tab, AutBasionymAuthorsRole_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Author; ex Author; in Author; MS Author
+Notes: 
