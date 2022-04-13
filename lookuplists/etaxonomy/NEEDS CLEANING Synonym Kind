@@ -1,0 +1,7 @@
+Name: Synonym Kind
+Column Names Affected: SynKind_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Basionym; Doubtful; Heterotypic; Homonym; Homotypic; junior synonym; Misapplied; Nomen nudum; Nomen oblitum; Orthographic Variant; Other Combination; Pro Parte; synonym; synonym ?; valid
+Notes: 
