@@ -1,0 +1,7 @@
+Name: Type Status
+Column Names Affected: CitTypeStatus_nesttab, PriTypeAboveSpeciesStatus
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: 
+Notes: 
