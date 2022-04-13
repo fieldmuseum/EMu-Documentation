@@ -1,0 +1,7 @@
+Name: Taxonomic Code 
+Column Names Affected: ClaApplicableCode
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: ICBN; ICBN-P; ICZN; ICZN-P; Minerals, ICN
+Notes:
