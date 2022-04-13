@@ -1,0 +1,7 @@
+Name: Taxonomy Geographic Status
+Column Names Affected: GeoStatus_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: 
+Notes: To be deprecated on favour of Conservation Status
