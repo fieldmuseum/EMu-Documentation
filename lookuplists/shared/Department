@@ -1,0 +1,6 @@
+Name: Department
+Column Names Affected: SecDepartment
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: Anthropology; Botany; Geology; Zoology
