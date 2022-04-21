@@ -1,4 +1,4 @@
-Name: Department
+Name: Security Department
 Column Names Affected: SecDepartment
 Lookup Level: 1
 Security: “Locked + Admin”
