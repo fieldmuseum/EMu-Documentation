@@ -1,7 +1,7 @@
-module,filename,definition 
-ecatalogue,geologyfigured.png, 
-ecatalogue,geologyreferred.png,
-ecatalogue,geologytype.png,
-ecatalogue,hazardous.png,
-ecatalogue,noloan.png,
-ecatalogue,onexhibit.png, 
+module,filename,description,image 
+ecatalogue,geologyfigured.png,red circle,https://github.com/fieldmuseum/EMu-Documentation/blob/master/icons/pngs/geologyfigured.png 
+ecatalogue,geologyreferred.png,, 
+ecatalogue,geologytype.png,, 
+ecatalogue,hazardous.png,, 
+ecatalogue,noloan.png,, 
+ecatalogue,onexhibit.png, , 
