@@ -1,7 +1,7 @@
-module,filename,description, 
-ecatalogue,geologyfigured.png, 
-ecatalogue,geologyreferred.png, 
-ecatalogue,geologytype.png,
-ecatalogue,hazardous.png,
-ecatalogue,noloan.png,
-ecatalogue,onexhibit.png, 
+module,filename,description
+ecatalogue,geologyfigured.png,red circle 
+ecatalogue,geologyreferred.png,green circle
+ecatalogue,geologytype.png,yellow star
+ecatalogue,hazardous.png,Yellow triangle with black exclamation
+ecatalogue,noloan.png,red hollow circle with red diagonal and text=LOAN
+ecatalogue,onexhibit.png, clack rectangle and text=On exhibit
