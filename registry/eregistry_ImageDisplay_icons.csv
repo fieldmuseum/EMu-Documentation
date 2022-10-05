@@ -1,0 +1,30 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Key7,Value,ImageFile,HoverText
+Group,BotanyMgr,Table,ecatalogue,Image Display,PriRareAndEndangeredIndicator,Yes,,,
+Group,Default,Table,ecatalogue,Image Display,CatCatalogSubset,Figured,geologyfigured.png;;This is a figured specimen,geologyfigured.png,This is a figured specimen
+Group,Default,Table,ecatalogue,Image Display,CatCatalogSubset,Hazardous,hazardous.jpg;;This specimen/object is hazardous,hazardous.jpg,This specimen/object is hazardous
+Group,Default,Table,ecatalogue,Image Display,CatCatalogSubset,No Loan,noloan.jpg;;This specimen/object should not be loaned,noloan.jpg,This specimen/object should not be loaned
+Group,Default,Table,ecatalogue,Image Display,CatCatalogSubset,Referred,geologyreferred.png;;This is a referred specimen,geologyreferred.png,This is a referred specimen
+Group,Default,Table,ecatalogue,Image Display,CatCatalogSubset,Sensitive,sensitive.jpg,sensitive.jpg,
+Group,Default,Table,ecatalogue,Image Display,CatCatalogSubset,Type,geologytype.png;;This is a type specimen,geologytype.png,This is a type specimen
+Group,Default,Table,ecatalogue,Image Display,PriLoanStatus,Yes,onloan.jpg;;This specimen is currently on loan.,onloan.jpg,This specimen is currently on loan.
+Group,Default,Table,ecatalogue,Image Display,PriRareAndEndangeredIndicator,Yes,"rande.jpg;;This taxon is currently listed as rare and/or endandered, check with the appropriate collection manager for more information..",rande.jpg,"This taxon is currently listed as rare and/or endandered, check with the appropriate collection manager for more information.."
+Group,Default,Table,ecatalogue,Image Display,RigRightsRef_tab,NOT NULL,ecatalog_rights_R.png;;Check Copyright/Rights for restrictions/requirements,ecatalog_rights_R.png,Check Copyright/Rights for restrictions/requirements
+Group,Default,Table,eevents,Image Display,SecRecordStatus,Embargoed,eevents_embargo.png;;Embargoed until date specified,eevents_embargo.png,Embargoed until date specified
+Group,Default,Table,eexhibitobjects,Image Display,RigTaxonListed,Yes,rande.jpg;;This taxonomic identification of this specimen/artifact currently idicated that it is listed. You MUST check with the appropritae collection manager.,rande.jpg,This taxonomic identification of this specimen/artifact currently idicated that it is listed. You MUST check with the appropritae collection manager.
+Group,Default,Table,eexhibitobjects,Image Display,StaDayOne,No,exhibits_rotations.png,exhibits_rotations.png,
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Approved,exhibitsstatus_approved.png;;APPROVED,exhibitsstatus_approved.png,APPROVED
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Confirmed,exhibitsstatus_confirmed.png;;CONFIRMED,exhibitsstatus_confirmed.png,CONFIRMED
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Deinstalled,exhibitsstatus_deinstalled.png;;DEINSTALLED,exhibitsstatus_deinstalled.png,DEINSTALLED
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Dropped,exhibitsstatus_dropped.png;;DROPPED,exhibitsstatus_dropped.png,DROPPED
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Rejected,exhibitsstatus_rejected.png;;REJECTED,exhibitsstatus_rejected.png,REJECTED
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Under Consideration,exhibitsstatus_underconsideration.png;;UNDER CONSIDERATION,exhibitsstatus_underconsideration.png,UNDER CONSIDERATION
+Group,Default,Table,eexhibitobjects,Image Display,StaStatus,Wanted,exhibitsstatus_wanted.png;;WANTED,exhibitsstatus_wanted.png,WANTED
+Group,Default,Table,efmnhtransactions,Image Display,SumAction,Anthropology - Accession,efmnhtransaction_action_accession.png;;Accession,efmnhtransaction_action_accession.png,Accession
+Group,Default,Table,efmnhtransactions,Image Display,SumAction,Anthropology - Study,efmnhtransaction_action_study.png;;Study,efmnhtransaction_action_study.png,Study
+Group,Default,Table,efmnhtransactions,Image Display,SumAction,Anthropology - Transaction,efmnhtransaction_action_loan.png;;Loan,efmnhtransaction_action_loan.png,Loan
+Group,Default,Table,emultimedia,Image Display,AdmPublishWebNoPassword,No,EMuMedRestric_90b.png,EMuMedRestric_90b.png,
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Embargoed,eevents_embargo.png;;Embargoed until date specified in Event.,eevents_embargo.png,Embargoed until date specified in Event.
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,NC Only,emultimedia_noncommercial_oj.png;;Do not use this media for commercial purposes.,emultimedia_noncommercial_oj.png,Do not use this media for commercial purposes.
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Non-FMNH,emultimedia_nonFMNH.png;;The copyright holder is NOT the Field Museum. Check the attached rights & license.,emultimedia_nonFMNH.png,The copyright holder is NOT the Field Museum. Check the attached rights & license.
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Requires Approval,emultimedia_approv.png;;Approval required prior to using this media - check Security and Rights or licensing,emultimedia_approv.png,Approval required prior to using this media - check Security and Rights or licensing
+Group,Default,Table,emultimedia,Image Display,SecRecordStatus,Restricted,ecatalog_rights_R.png;;Restricted media - check Security and Rights/licensing prior to reusing,ecatalog_rights_R.png,Restricted media - check Security and Rights/licensing prior to reusing
