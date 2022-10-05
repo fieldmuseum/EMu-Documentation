@@ -1,4 +1,4 @@
 module,filename,description 
-efmnhtransactions,efmnhtransaction_action_accession.png, 
-efmnhtransactions,efmnhtransaction_action_loan,
-efmnhtransactions,efmnhtransaction_action_study,
+efmnhtransactions,efmnhtransaction_action_accession.png, Green square text=A
+efmnhtransactions,efmnhtransaction_action_loan, Blue square text=L
+efmnhtransactions,efmnhtransaction_action_study, Yellow square text=S
