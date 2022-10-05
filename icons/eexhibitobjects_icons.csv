@@ -1,9 +1,9 @@
 module,filename,description 
-eexhibitobjects,exhibits_rotations.png,
-eexhibitobjects,exhibitsstatus_approved.png,
-eexhibitobjects,exhibitsstatus_confirmed.png,
-eexhibitobjects,exhibitsstatus_deinstalled.png,
-eexhibitobjects,exhibitsstatus_dropped.png,
-eexhibitobjects,exhibitsstatus_rejected.png,
-eexhibitobjects,exhibitsstatus_underconsideration.png,
-eexhibitobjects,exhibitsstatus_wanted.png,
+eexhibitobjects,exhibits_rotations.png, Two black arrows in a circle with two black dots
+eexhibitobjects,exhibitsstatus_approved.png, Green square text=A
+eexhibitobjects,exhibitsstatus_confirmed.png, Green square text=C
+eexhibitobjects,exhibitsstatus_deinstalled.png, Blue square text=D
+eexhibitobjects,exhibitsstatus_dropped.png, Red square text=D
+eexhibitobjects,exhibitsstatus_rejected.png, Red square text=R
+eexhibitobjects,exhibitsstatus_underconsideration.png, Yellow square text=U
+eexhibitobjects,exhibitsstatus_wanted.png, Blue square text=W
