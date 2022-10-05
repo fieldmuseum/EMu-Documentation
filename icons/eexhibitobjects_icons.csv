@@ -1,0 +1,9 @@
+module,filename,definition 
+eexhibitobjects,exhibits_rotations.png,
+eexhibitobjects,exhibitsstatus_approved.png,
+eexhibitobjects,exhibitsstatus_confirmed.png,
+eexhibitobjects,exhibitsstatus_deinstalled.png,
+eexhibitobjects,exhibitsstatus_dropped.png,
+eexhibitobjects,exhibitsstatus_rejected.png,
+eexhibitobjects,exhibitsstatus_underconsideration.png,
+eexhibitobjects,exhibitsstatus_wanted.png,
