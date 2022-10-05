@@ -1,10 +1,10 @@
 module,filename,description
-ecatalogue,geologyfigured.png,red circle 
-ecatalogue,geologyreferred.png,green circle
-ecatalogue,geologytype.png,yellow star
+ecatalogue,geologyfigured.png,Red circle 
+ecatalogue,geologyreferred.png,Green circle
+ecatalogue,geologytype.png,Yellow star
 ecatalogue,hazardous.jpg,Yellow triangle with black exclamation
-ecatalogue,noloan.jpg,red hollow circle with red diagonal and text=LOAN
-ecatalogue,onexhibit.jpg, clack rectangle and text=On exhibit
+ecatalogue,noloan.jpg,Red hollow circle with red diagonal and text=LOAN
+ecatalogue,onexhibit.jpg, Black rectangle and text=On exhibit
 ecatalogue,ecatalog_rights_R21x21.png, Small Red text=R
 ecatalogue,ecatalog_rights_R42x42.png, Bold red text=R
 ecatalogue,rande.jpg, Red shield
