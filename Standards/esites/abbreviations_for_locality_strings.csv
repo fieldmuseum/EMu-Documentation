@@ -1,0 +1,43 @@
+value,standard_term,abbreviation,case,Reference  
+West,west,W,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+East,east,E,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+South,south,S,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+North,north,N,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+North-East,northeast,NE,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+North-West,northwest,NW,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+South-East,southeast,SE,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+South-West,southwest,SW,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+North North West,north-northwest,NNW,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+North North East,north-northeast,NNE,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+South South West,south-southwest,SSW,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+South South East,south-southeast,SSE,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
+Latitude,Latitude,Lat,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec037.html
+Longitude,Longitude,Long,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec037.html
+near,near,NO ABBREVIATION,SENTANCE CASE,
+vicinity,,NO ABBREVIATION,SENTANCE CASE,
+nr,near,NO ABBREVIATION,SENTANCE CASE,
+nearby,,NO ABBREVIATION,SENTANCE CASE,
+about,,NO ABBREVIATION,SENTANCE CASE,
+miles,miles,mi.,,
+yards,yards,yd.,,
+feet,feet,ft.,,
+kilometers,kilometers,km,,
+meter/s,meter,m,,
+metre/s,meter,m,,
+fathom/s,fathom,NO ABBREVIATION,,
+centimeter/s,centimeters,cm,,
+millimeter/s,millimeters,mm,,
+ca. ,,NO ABBREVIATION,,
+approx.,approximately,NO ABBREVIATION,,
+western,,NO ABBREVIATION,SENTANCE CASE,
+northern,,NO ABBREVIATION,SENTANCE CASE,
+southern,,NO ABBREVIATION,SENTANCE CASE,
+eastern,,NO ABBREVIATION,SENTANCE CASE,
+Hwy. ,Highway,NO ABBREVIATION,,
+Mt.,Mountain or Mount,NO ABBREVIATION,,
+Natl.,National,NO ABBREVIATION,,
+For.,Forest,NO ABBREVIATION,,
+RR,Railroad,NO ABBREVIATION,,
+State,,NO ABBREVIATION,SENTANCE CASE,
+Province,,NO ABBREVIATION,SENTANCE CASE,
+County,,NO ABBREVIATION,SENTANCE CASE,
