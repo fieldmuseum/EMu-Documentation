@@ -1,0 +1,6 @@
+Name: Stratigraphy Classification
+Column Names Affected: SumRecordClassification
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Values: Chronostratigraphy, Lithostratigraphy, Biostratigraphy, Sequence, Cultural, Chronometric Age
