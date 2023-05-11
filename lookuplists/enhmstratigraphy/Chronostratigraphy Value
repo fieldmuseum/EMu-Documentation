@@ -1,0 +1,6 @@
+Name: Chronostratigraphy Value
+Column Names Affected: ChrEonFrom_tab / ChrEonTo_tab; ChrEonFrom_tab / ChrEonTo_tab;  ChrPeriodFrom_tab / ChrPeriodTo_tab; ChrEpochFrom_tab / ChrEpochTo_tab; ChrEpochFrom_tab / ChrEpochTo_tab
+Lookup Level: 1-5
+Security: “Locked + with Edit access” FossilInvertsMgr, FossilVertsMgr, PaleobotanyMgr
+Tab Switching: No
+Values: See ChronostratigraphyValue.txt for lookup table values with sort order as of 2018
