@@ -3,5 +3,5 @@ Column Names Affected: ChrEonFrom_tab / ChrEonTo_tab; ChrEonFrom_tab / ChrEonTo_
 Lookup Level: 1-5
 Security: “Locked + with Edit access” FossilInvertsMgr, FossilVertsMgr, PaleobotanyMgr
 Tab Switching: No
-Values: See ChronostratigraphyValue.txt for lookup table values with sort order as of 2018
+Values: See backend file ChronostratigraphyValue.txt for lookup table values with sort order as of 2018
 File: https://github.com/fieldmuseum/EMu-Documentation/blob/master/lookuplists/enhmstratigraphy/ChronostratigraphyValue2018.txt
