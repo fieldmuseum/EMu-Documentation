@@ -1,9 +1,9 @@
 value,standard_term,abbreviation,case,Reference  
-square centimeter,1 square centimeter,cm2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
-square decimeter,1 square decimeter,dm2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
-square dekameter,1 are,dam2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
-square hectometer,1 hectare,ha,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
-square kilometer, 1 square kilometer,km2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square centimeter,,cm2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square decimeter,,dm2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square dekameter,are,dam2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square hectometer,hectare,ha,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square kilometer,,km2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
 West,west,W,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
 East,east,E,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
 South,south,S,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
