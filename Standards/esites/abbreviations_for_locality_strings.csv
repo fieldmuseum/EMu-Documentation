@@ -1,4 +1,9 @@
 value,standard_term,abbreviation,case,Reference  
+square centimeter,1 square centimeter,cm2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square decimeter,1 square decimeter,dm2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square dekameter,1 are,dam2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square hectometer,1 hectare,ha,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
+square kilometer, 1 square kilometer,km2,LOWER,https://www.nist.gov/pml/owm/metric-si/si-units-area
 West,west,W,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
 East,east,E,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
 South,south,S,,https://www.chicagomanualofstyle.org/16/ch10/ch10_sec036.html
@@ -18,28 +23,29 @@ vicinity,,NO ABBREVIATION,SENTANCE CASE,
 nr,near,NO ABBREVIATION,SENTANCE CASE,
 nearby,,NO ABBREVIATION,SENTANCE CASE,
 about,,NO ABBREVIATION,SENTANCE CASE,
-miles,miles,mi.,,
-yards,yards,yd.,,
-feet,feet,ft.,,
-kilometers,kilometers,km,,
-meter/s,meter,m,,
-metre/s,meter,m,,
-fathom/s,fathom,NO ABBREVIATION,,
-centimeter/s,centimeters,cm,,
-millimeter/s,millimeters,mm,,
-ca. ,,NO ABBREVIATION,,
-approx.,approximately,NO ABBREVIATION,,
+miles,miles,mi.,LOWER,
+yards,yards,yd.,LOWER,
+feet,feet,ft.,LOWER,
+kilometers,kilometers,km,LOWER,
+meter/s,meter,m,LOWER,
+metre/s,meter,m,LOWER,
+fathom/s,fathom,NO ABBREVIATION,LOWER,
+centimeter/s,centimeters,cm,LOWER,
+millimeter/s,millimeters,mm,LOWER,
+ca. ,,NO ABBREVIATION,LOWER,
+approx.,approximately,NO ABBREVIATION,SENTANCE CASE,
 western,,NO ABBREVIATION,SENTANCE CASE,
 northern,,NO ABBREVIATION,SENTANCE CASE,
 southern,,NO ABBREVIATION,SENTANCE CASE,
 eastern,,NO ABBREVIATION,SENTANCE CASE,
-Hwy. ,Highway,NO ABBREVIATION,,
-Mt.,Mountain or Mount,NO ABBREVIATION,,
-Natl.,National,NO ABBREVIATION,,
-For.,Forest,NO ABBREVIATION,,
-RR,Railroad,NO ABBREVIATION,,
+Hwy. ,Highway,NO ABBREVIATION,SENTANCE CASE,
+Mt.,Mountain or Mount,NO ABBREVIATION,SENTANCE CASE,
+Natl.,National,NO ABBREVIATION,SENTANCE CASE,
+For.,Forest,NO ABBREVIATION,SENTANCE CASE,
+RR,Railroad,NO ABBREVIATION,SENTANCE CASE,
 State,,NO ABBREVIATION,SENTANCE CASE,
 Province,,NO ABBREVIATION,SENTANCE CASE,
 County,,NO ABBREVIATION,SENTANCE CASE,
-Nautical mile,,nm,SENTANCE CASE,
-Knots,,kn,SENTANCE CASE,
+Nautical mile,,nm,SENTANCE CASE or LOWER,
+Knots,,kn,SENTANCE CASE or LOWER,
+
