@@ -3,4 +3,4 @@ Column Names Affected: ecatalogue.SecRecordStatus
 Lookup Level: 1
 Security: “Admin"
 Tab Switching: No
-Level 1 Value [ecatalogue]: Active; Embargoed; NC Only; Non-FMNH; Requires Approval; Restrited; Retired; Synonym 
+Level 1 Value [ecatalogue]: Active; Embargoed; NC Only; Non-FMNH; Requires Approval; Restricted; Retired; Sensitive; Synonym 
