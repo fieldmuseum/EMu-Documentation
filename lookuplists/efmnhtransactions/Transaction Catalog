@@ -1,0 +1,8 @@
+Name: Transaction Catalog
+Column Names Affected: SumDepartment / AccCatalogue / SumAction 
+Lookup Level: 1-3
+Security: “Locked + Admin” 
+Tab Switching: Yes
+Values: [Level 1] Anthropology | Botany | Geology | Zoology | Exhibitions | Library |
+Values: [Level 2] Anthropology | Botany | Fossil Invertebrates, Fossil Vertebrates, Paleobotany, Physical Geology | Zoology, Amphibians & Reptiles, Birds, Fishes, Insects, Invertebrates, Mammals | Exhibitions | Library, Photo Archives |
+Values: [Level 3] Accession, LEGACY, Study, Transaction | Accession, LEGACY ONLY, Loan, Transaction | Accession, Transaction | Accession, Transaction | Accession, Transaction | Accession, Transaction | Accession, Transaction | Accession, Transaction  | Accession, Transaction  | Accession, Transaction  | Accession, Transaction  | Accession, Transaction | Accession, Transaction  | Accession, Transaction  |
