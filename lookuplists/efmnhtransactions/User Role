@@ -1,0 +1,5 @@
+User Role
+Column Names Affected: TraUserRole_tab
+Lookup Level: 1
+Security: “Locked + Collection Mgr (GroupNames) with Edit access”
+Values: Professional, Student, Other
