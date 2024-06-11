@@ -1,0 +1,6 @@
+Name: Loan Status
+Column Names Affected: LoaStatus
+Lookup Level: 1
+Security: “Locked + Admin” 
+Tab Switching: No
+Values: [Level 1] Cancelled, Closed, Declined, Open, Pending, Transferred/Closed
