@@ -1,0 +1,6 @@
+Name: Currency
+Column Names Affected: MovTotalCostCurrency
+Tab Switching: No
+Lookup Level: 1
+Security: “Locked + Admin”
+Values: ISO standard 3 letter currency codes
