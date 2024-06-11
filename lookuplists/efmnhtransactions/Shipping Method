@@ -1,0 +1,6 @@
+Name: Shipping Method
+Column Names Affected: MovShippingMethod 
+Tab Switching: No
+Lookup Level: 1
+Security: “Locked + Admin”
+Values: Air, Freight, Fine Arts Shipper, Courier, Sea, Other, Hand
