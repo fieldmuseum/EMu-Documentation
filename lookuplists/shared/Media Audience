@@ -2,4 +2,4 @@ Name: Media Audience
 Column Names Affected: enarratives.DesIntendedAudience_tab; emultimedia.ChaAudience_tab
 Security: “Locked + Admin”
 Tab Switching: No
-Level 1 Values: Community Group; Public
+Level 1 Values: Community Group; Public; Museum Staff
