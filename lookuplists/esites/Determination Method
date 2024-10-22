@@ -1,0 +1,6 @@
+Name: Elevation Qualifier
+Column Names Affected: LocDeterminationMethodASL; LocDeterminationMethod
+Lookup Level: 1
+Security: “Locked + Mgr”
+Tab Switching: No
+Values: approximate; Google Earth
