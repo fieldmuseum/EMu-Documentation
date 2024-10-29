@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           eexhibitobjects
+    text short      StaEventCatalogueNumber
+    tuple           StaObjectRef
+      table           DesObjectName_tab
+        text short      DesObjectName
+      end
+    end
+    text short      StaStatus
+    text short      StaDayOne
+    text long       DevDisplayNotes
+    text long       StaSectionTitle
+    text short      StaSectionNumber
+    text short      DevGroup
+    text short      DevSubGroup
+    text long       StaCaseWall
+    text short      DevButtonNumber
+    table           MeaMeasurementTaken_tab
+      text short      MeaMeasurementTaken
+    end
+    table           MeaMeasurementKind_tab
+      text short      MeaMeasurementKind
+    end
+    table           MeaMeasurmentFraction_tab
+      text short      MeaMeasurmentFraction
+    end
+    table           MeaRemarks_tab
+      text long       MeaRemarks
+    end
+    table           MeaMeasurementConfirmed_tab
+      text short      MeaMeasurementConfirmed
+    end
+    table           MeaMeasuredByRef_tab
+      text long       NamBriefName
+    end
+    table           MeaStartDate0
+      date            MeaStartDate
+    end
+    text short      MouDisplay
+    text short      MouAngle
+    text short      MouSurface
+    text long       MouMountNotes
+    text long       MouCaseNotes
+    text long       MouMountDetails
+    table           MulMultiMediaRef_tab
+      text short      Multimedia
+      table           DocIdentifier_tab
+        text short      DocIdentifier
+      end
+    end
+    float           EnvTargetRelativeHumidity
+    float           EnvRelativeHumidityModifier
+    integer         EnvMaxIlluminationLevel
+    table           EnvCaseRequirement_tab
+      text short      EnvCaseRequirement
+    end
+    table           EnvCaseRequirementYesNo_tab
+      text short      EnvCaseRequirementYesNo
+    end
+    text long       EnvNotes
+    text short      EnvSetPointRange
+    text short      OveExhibitionObjectName
+    table           InsMultimediaRef_tab
+      text short      Multimedia
+    end
+    table           InsKind_tab
+      text short      InsKind
+    end
+    table           MeaWeightImp_tab
+      float           MeaWeightImp
+    end
+  end
+?>
+<!-- Data -->
+<table name="eexhibitobjects">
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="StaEventCatalogueNumber">COL23-239</atom>
+    <tuple name="StaObjectRef">
+    </tuple>
+    <atom name="StaStatus">Confirmed</atom>
+    <atom name="StaDayOne">Yes</atom>
+    <atom name="DevDisplayNotes"></atom>
+    <atom name="StaSectionTitle">1 Red</atom>
+    <atom name="StaSectionNumber"></atom>
+    <atom name="DevGroup">Red fur</atom>
+    <atom name="DevSubGroup"></atom>
+    <atom name="StaCaseWall">201 | [Order] | [Case Inv.]</atom>
+    <atom name="DevButtonNumber">2</atom>
+    <table name="MeaMeasurementKind_tab">
+      <tuple>
+        <atom name="MeaMeasurementKind">height</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaMeasurementKind">width</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaMeasurementKind">depth</atom>
+      </tuple>
+    </table>
+    <table name="MeaMeasurmentFraction_tab">
+      <tuple>
+        <atom name="MeaMeasurmentFraction">6-3/8</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaMeasurmentFraction">14</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaMeasurmentFraction">4-5/8</atom>
+      </tuple>
+    </table>
+    <table name="MeaRemarks_tab">
+      <tuple>
+        <atom name="MeaRemarks">Dims inclulde base</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaRemarks">Dims inclulde base</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaRemarks">Dims inclulde base</atom>
+      </tuple>
+    </table>
+    <table name="MeaMeasurementConfirmed_tab">
+      <tuple>
+        <atom name="MeaMeasurementConfirmed">Mount Shop</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaMeasurementConfirmed">Mount shop</atom>
+      </tuple>
+      <tuple>
+        <atom name="MeaMeasurementConfirmed">Mount Shop</atom>
+      </tuple>
+    </table>
+    <table name="MeaMeasuredByRef_tab">
+      <tuple>
+        <atom name="NamBriefName">P. Gaible</atom>
+      </tuple>
+      <tuple>
+        <atom name="NamBriefName">P. Gaible</atom>
+      </tuple>
+      <tuple>
+        <atom name="NamBriefName">P. Gaible</atom>
+      </tuple>
+    </table>
+    <atom name="MouDisplay"></atom>
+    <atom name="MouAngle"></atom>
+    <atom name="MouSurface"></atom>
+    <atom name="MouMountNotes">taxidermy squirrel - wood base - free standing - EAR PROBLEM</atom>
+    <atom name="MouCaseNotes">Display upright on case deck. Object is on wood base. Attach to panel.</atom>
+    <atom name="MouMountDetails">Brackets (6) attach wood base on obj. to 1"H acrylic panel with (6) L shaped brackets with stop. Secure bracket to under side of panel with locking collar and alignment pin. Provide (2) button cap 8-2.54 x 1-1/4"L machine screws to attach acrylic panel to case deck with threaded inserts - make template for acrylic panel to drill out case deck on site. Needs shim under wood panel to keep it from wobbling or cut out hole in panel to accommodate protruding hardware on bottom of wood board. Suede cu</atom>
+    <table name="MulMultiMediaRef_tab">
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\128\COL239_key_EX.JPG</atom>
+        <table name="DocIdentifier_tab">
+          <tuple>
+            <atom name="DocIdentifier">COL239_key_EX.JPG</atom>
+          </tuple>
+          <tuple>
+            <atom name="DocIdentifier">COL239_key_EX.thumb.jpg</atom>
+          </tuple>
+          <tuple>
+            <atom name="DocIdentifier">COL239_key_EX.600x600.jpg</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="EnvTargetRelativeHumidity"></atom>
+    <atom name="EnvRelativeHumidityModifier"></atom>
+    <atom name="EnvMaxIlluminationLevel"></atom>
+    <table name="EnvCaseRequirement_tab">
+      <tuple>
+        <atom name="EnvCaseRequirement">Silica Gel</atom>
+      </tuple>
+      <tuple>
+        <atom name="EnvCaseRequirement">Data Logger</atom>
+      </tuple>
+      <tuple>
+        <atom name="EnvCaseRequirement">MCG</atom>
+      </tuple>
+      <tuple>
+        <atom name="EnvCaseRequirement">Pest Port</atom>
+      </tuple>
+      <tuple>
+        <atom name="EnvCaseRequirement">Alarm</atom>
+      </tuple>
+    </table>
+    <atom name="EnvNotes"></atom>
+    <atom name="EnvSetPointRange"></atom>
+    <atom name="OveExhibitionObjectName">Eurasian red squirrel</atom>
+    <table name="InsMultimediaRef_tab">
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\128\COL239_key_EX.JPG</atom>
+      </tuple>
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\129\COL239_side1_EX.JPG</atom>
+      </tuple>
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\131\COL239_top_EX.JPG</atom>
+      </tuple>
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\130\COL239_side2_EX.JPG</atom>
+      </tuple>
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\127\COL239_back_EX.JPG</atom>
+      </tuple>
+      <tuple>
+        <atom name="Multimedia">C:\Users\kwebbink\AppData\Local\KESoftware\Cache\2240\132\COL239_xtra1_EX.JPG</atom>
+      </tuple>
+    </table>
+    <table name="InsKind_tab">
+      <tuple>
+        <atom name="InsKind">key</atom>
+      </tuple>
+      <tuple>
+        <atom name="InsKind">side1</atom>
+      </tuple>
+      <tuple>
+        <atom name="InsKind">top</atom>
+      </tuple>
+      <tuple>
+        <atom name="InsKind">side2</atom>
+      </tuple>
+      <tuple>
+        <atom name="InsKind">back</atom>
+      </tuple>
+      <tuple>
+        <atom name="InsKind">xtra1</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>
