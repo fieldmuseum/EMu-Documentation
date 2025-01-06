@@ -1,0 +1,7 @@
+Name: Conservation Record Type
+Column Names Affected: InfRecordType
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: Yes
+Values: ”Analysis Report”, “Treatment Report”, ”Loan Condition Report”, ”Loan Condition Report - Incoming”,”Loan Condition Report - Outgoing”, “Loan Condition Report - Returning”, ”Loan Condition Report - During”, ”Preparation”, ”Condition Check”
+
