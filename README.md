@@ -17,7 +17,7 @@ EMu meetings are now documented in the [discussion section](https://github.com/f
 ### HOW TO's...
   These discussions are answers to questions that mostly relate to workflows and broader topics than covered by an FAQ. The answers are generally complex and often have accompanying documents and spreadsheets.
 ### MEETINGS
-  These discussions are the metting notes for open meetings of the Field Museum EMu community. These include regularly scheduled EMu hour, EMu User meetings, module working group meetings and ad-hoc topic sessions. Each meeting my generation questions and these (with their answers) are documented as Q&A discussions.
+  These discussions are the agenda and notes for open meetings of the Field Museum EMu community. These include regularly scheduled EMu hour, EMu User meetings, module working group meetings and ad-hoc topic sessions. Each meeting my generation questions and these (with their answers) are documented as Q&A discussions.
 ### Q&A's
   Any member of the EMu community can submit a non-urgent question to a meeting. Each of these has its own discussion item which is (as far as possible) answered at the meeting. If it cannot be answered fully then the user may be asked to create an IT helpdesk ticket and/or a github issue for tracking of any investigations and solutions to the question. 
 ### Relevant Reading
