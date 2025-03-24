@@ -65,9 +65,8 @@ Each module has a set of wiki pages that documents the use of that module at the
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/etaxonomy-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/etaxonomy-workflows)
 
 
-## Documentation Templates:
-### DEPRECATED 2024: 
-We have transistioned the content and use of these templates to corresponding github wiki pages, issues and documentation
+## DOCUMENTATION TEMPLATES - 2024: 
+We have transistioned the content and use of these templates to corresponding github wiki pages, issues and documentation. However, we have left them available if they are useful for the community as starting places.
 - [Standards & Workflow Documentation Template](https://docs.google.com/document/d/1L-lFa4STSxdCT8pe1EamQRyEgPI-yjHyAJ2L0id-170/)
 We use this to document the discussions and decisions that we make as a user group. Some will lead to structural changes requests and others result in workflow changes. This document stays alive and is intended to be our master documentation for that module.  NOTE: Jan 2022. We are currently transitioning this into the wiki section of this repo.
 - [User Group Description Template](https://docs.google.com/document/d/1iJ2I_X79dxPpbptJXkG3lYbekszdSqJL5P5yLTYly_o/)
