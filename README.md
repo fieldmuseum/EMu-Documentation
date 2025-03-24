@@ -2,8 +2,8 @@
 Documentation for EMu workflows, structural changes, testing, standardization.
 
 In 2024 we transistioned the majority of the documentation of how use EMu to this repo and now make use of issues, disucssions and the wiki to document as much as possible. We have left these documents here in case anyone wants to use them.
-
-## EMu meetings 
+## Discussions
+### EMu meetings 
 These are now documented in the [discussion section](https://github.com/fieldmuseum/EMu-Documentation/discussions) of the repo. Discussions are divided into:
 ### EMu in the News
   These discussions are fun mentions of EMu's in the news and can be from anyone.
