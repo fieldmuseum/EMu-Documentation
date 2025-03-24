@@ -23,7 +23,7 @@ EMu meetings are now documented in the [discussion section](https://github.com/f
   There is one structural changes disucssion for each EMu module. If any discussion leads to a request by a user or group to change or add new functionality to EMu (that is not urgetn) then a comment it added for that module. These comments are then held until the next round of funded structurak changes is submitted to Axiel for development.
 
 ## Module by module documentation
-Each module has a set of wiki pages that documents the use of that module at the Museum. This is where we document any standards are agreed by the respect working groups.
+Each module has a set of wiki pages that documents the use of that module at the Museum. This is where we document any standards and workflows are agreed by the respect working groups and departments. As well as any structural changes that have been approved and scheduled for development by Axiell.
 
 ### ebibliography 
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-workflows)
@@ -61,13 +61,7 @@ Each module has a set of wiki pages that documents the use of that module at the
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/etaxonomy-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/etaxonomy-workflows)
 
 
-
-## Change requests and updates 
-
-
-
 ## Documentation Templates:
-
 ### IN CURRENT USE:
 - [Structural Changes Template](https://docs.google.com/document/d/19V6rYzCPe8_u5-JhoCf-sQ0zVDubF9xSHYqApmSaMaA/)
 We use this to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
