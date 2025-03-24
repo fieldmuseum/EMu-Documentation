@@ -23,8 +23,7 @@ EMu meetings are now documented in the [discussion section](https://github.com/f
   There is one structural changes disucssion for each EMu module. If any discussion leads to a request by a user or group to change or add new functionality to EMu (that is not urgetn) then a comment it added for that module. These comments are then held until the next round of funded structurak changes is submitted to Axiel for development.
 
 ## Module by module documentation
-Each module has a set of wiki pages that documents the use of that module at the Museum. This is where we document any standards and workflows are agreed by the respect working groups and departments. As well as any structural changes that have been approved and scheduled for development by Axiell.
-
+Each module has a set of wiki pages that documents the use of that module at the Museum. This is where we document any standards and workflows that are agreed by the respect working groups and departments. As well as any structural changes that have been approved and scheduled for development by Axiell.
 ### ebibliography 
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-workflows)
 ### ecatalogue 
@@ -65,18 +64,16 @@ Each module has a set of wiki pages that documents the use of that module at the
 ### IN CURRENT USE:
 - [Structural Changes Template](https://docs.google.com/document/d/19V6rYzCPe8_u5-JhoCf-sQ0zVDubF9xSHYqApmSaMaA/)
 We use this to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
-
 - [Admin Testing Template](https://docs.google.com/document/d/16xxeky2kTEMUM4eW1GPQRQFUvvwUsG-gPhuRFNUWUa0/)
 We use this to document the Admin level review of structural changes as returned to us from Axiell. It indicates whether developments to a module have be completed as specified in the corresponding structural changes document or not. Once signed off by the Admin team it is returned to Axiell.
 
 ### DEPRECATED 2024: 
 We have transistioned the content and use of these templates to corresponding github wiki pages, issues and documentation
-
 - [Standards & Workflow Documentation Template](https://docs.google.com/document/d/1L-lFa4STSxdCT8pe1EamQRyEgPI-yjHyAJ2L0id-170/)
 We use this to document the discussions and decisions that we make as a user group. Some will lead to structural changes requests and others result in workflow changes. This document stays alive and is intended to be our master documentation for that module.  NOTE: Jan 2022. We are currently transitioning this into the wiki section of this repo.
 - [User Group Description Template](https://docs.google.com/document/d/1iJ2I_X79dxPpbptJXkG3lYbekszdSqJL5P5yLTYly_o/)
 We use this to document the creaton of a user group and the registry entries that are necessary to define it. 
-- - [accompanying request guidelines](https://docs.google.com/document/d/1K-kkldur2nQ4umQsbCT7DSPKiyZ9bquaXsC8ngLay98/) 
+- [accompanying request guidelines](https://docs.google.com/document/d/1K-kkldur2nQ4umQsbCT7DSPKiyZ9bquaXsC8ngLay98/) 
 This is for power users when they want a new group created.
 
 
