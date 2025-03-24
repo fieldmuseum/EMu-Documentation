@@ -1,7 +1,7 @@
 # EMu-Documentation
 This is the place for documentation about the Field Museum's implementation of EMu. 
 
-In 2024 we transistioned the majority of our documentation of how to got and use EMu to this repo, and now make use of issues, discssions and the wiki to document as much as possible. We have left the template documents here in case anyone wants to use them.
+In 2024 we transistioned the majority of our documentation of how to use EMu to this repo, and now make use of issues, discssions and the wiki to document as much as possible. We have left the template documents here in case anyone wants to use them.
 ## TEMPLATES IN CURRENT USE:
 - [Structural Changes Template](https://docs.google.com/document/d/19V6rYzCPe8_u5-JhoCf-sQ0zVDubF9xSHYqApmSaMaA/)
 We use this to document development requests for Axiell. A pdf is created when it is sent to Axiell and the googledoc changes version.
