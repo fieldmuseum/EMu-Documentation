@@ -27,37 +27,38 @@ Each module has a set of wiki pages that documents the use of that module at the
 
 ### ebibliography 
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-workflows)
-ecatalogue module
-ecatalogue workflows
-ecollectionevents module
-ecollectionevents workflows
-econservation module
-econservation workflows
-eevents module
-eevents workflows
-eexhibitobjects module
-eexhibitobjects workflows
-efmnhrepatriation (Consultations) module
-efmnhrepatriation workflows
-efmnhtransactions module
-efmnhtransactions workflows
-elocations workflows
-emultimedia glossary
-emultimedia module
-emultimedia workflows
-enarratives module
-enarratives workflows
-enhmstratigraphy module
-eparties module
-eparties workflows
-erights module
-erights workflows
-esites module
-esites workflows
-estandards module
-etaxonomy module
-etaxonomy workflows
-
+### ecatalogue 
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-workflows)
+### ecollectionevents
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecollectionevents-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecollectionevents-workflows)
+### econservation
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/econservation-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/econservation-workflows)
+### eevents
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eevents-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eevents-workflows)
+### eexhibitobjects
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eexhibitobjects-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eexhibitobjects-workflows)
+### efmnhrepatriation (Consultations)
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/efmnhrepatriation-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/efmnhrepatriation-workflows)
+### efmnhtransactions
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/efmnhtransactions-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/efmnhtransactions-workflows)
+### elocations 
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/elocations-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/elocations-workflows)
+### emultimedia
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-workflows) [glossary](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-glossary)
+### enarratives
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/enarratives-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/enarratives-workflows)
+### enhmstratigraphy
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/enhmstratigraphy-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/enhmstratigraphy-workflows)
+### eparties
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eparties-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eparties-workflows)
+### erights
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-workflows)
+### esites
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/erights-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/erights-workflows)
+### estandards
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/estandards-module) [workflows]()
+### etaxonomy
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/etaxonomy-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/etaxonomy-workflows)
 
 
 
