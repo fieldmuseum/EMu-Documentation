@@ -4,7 +4,23 @@ Documentation for EMu workflows, structural changes, testing, standardization.
 In 2024 we transistioned the majority of the documentation of how use EMu to this repo and now make use of issues, disucssions and the wiki to document as much as possible. We have left these documents here in case anyone wants to use them.
 
 ## EMu meetings 
-These are now documented in the discussion section of the repo
+These are now documented in the [discussion section](https://github.com/fieldmuseum/EMu-Documentation/discussions) of the repo. Discussions are divided into:
+- EMu in the News
+  These discussions are fun mentions of EMu's in the news and can be from anyone.
+- FAQs
+  These discussions are answers to questions that crop up on a regular basis. The answers are generally short and the fixes stable.
+- HOW TO's...
+  These discussions are answers to questions that mostly relate to workflows and broader topics than covered by an FAQ. The answers are generally complex and often have accompanying documents and spreadsheets.
+- MEETINGS
+  These discussions are the metting notes for open meetings of the Field Museum EMu community. These include regularly scheduled EMu hour, EMu User meetings, module working group meetings and ad-hoc topic sessions. Each meeting my generation questions and these (with their answers) are documented as Q&A discussions.
+- Q&A's
+  Any member of the EMu community can submit a non-urgent question to a meeting. Each of these has its own discussion item which is (as far as possible) answered at the meeting. If it cannot be answered fully then the user may be asked to create an IT helpdesk ticket and/or a github issue for tracking of any investigations and solutions to the question. 
+- Relevant Reading
+  These discussions are used to docunent any data releated reading that users which to share with each other.
+- Report Requests and Updates
+  If a user wants a non-urgent report created or updated a discussion may be created, particularly if it is a cross-departmental shared report.
+- Structural Changes
+  There is one structural changes disucssion for each EMu module. If any discussion leads to a request by a user or group to change or add new functionality to EMu (that is not urgetn) then a comment it added for that module. These comments are then held until the next round of funded structurak changes is submitted to Axiel for development.
 
 ## Module by module documentation
 
