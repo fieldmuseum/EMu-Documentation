@@ -1,7 +1,7 @@
 # EMu-Documentation
 This is the place for documentation about the Field Museum's implementation of EMu. 
 
-In 2024 we transistioned the majority of our documentation of how to use EMu to this repo, and now make use of issues, discussions and the wiki to document as much as possible. We have left the template documents here in case anyone wants to use them.
+In 2024 we transistioned the majority of our documentation of how to use EMu to this repo, and now make use of issues, discussions and the wiki to document as much as possible. We have moved the [documentation templates](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin--Documentation-Templates) to the wiki in case anyone wants to use them.
 
 ## Discussions
 EMu meetings are now documented in the [discussion section](https://github.com/fieldmuseum/EMu-Documentation/discussions) of the repo. Each is tagged according the the user departnent, and module. The discussions are divided into the following types:
