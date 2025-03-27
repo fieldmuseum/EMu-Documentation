@@ -22,6 +22,9 @@ EMu meetings are now documented in the [discussion section](https://github.com/f
 ### Structural Changes
   There is one [structural changes disucssion](https://github.com/fieldmuseum/EMu-Documentation/discussions/categories/structural-changes) for each EMu module. If any discussion leads to a request by a user or group to change or add new functionality to EMu (that is not urgent) then a comment it added for that module. These comments are then held until the next round of funded structural changes is submitted to Axiell for development.
 
+## Cross Module Standards
+[established standards](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#shared-between-modules)
+
 ## Module by module documentation
 Each module has its own set of [wiki pages](https://github.com/fieldmuseum/EMu-Documentation/wiki) that documents the use of that module at the Museum. This is where we document any standards and workflows that are agreed by the respective working groups and departments. As well as any structural changes that have been approved and scheduled for development by Axiell.
 ### ebibliography (Bibliography)
@@ -49,7 +52,7 @@ Each module has its own set of [wiki pages](https://github.com/fieldmuseum/EMu-D
 ### enhmstratigraphy (Stratigraphy)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/enhmstratigraphy-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/enhmstratigraphy-workflows)
 ### eparties (Parties)
-[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eparties-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eparties-workflows)
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eparties-module) | [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eparties-workflows) | [established standards](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#eparties)
 ### erights (Rights)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-workflows)
 ### esites (Sites)
