@@ -25,7 +25,7 @@ EMu meetings are now documented in the [discussion section](https://github.com/f
 ## Module by module documentation
 Each module has its own set of [wiki pages](https://github.com/fieldmuseum/EMu-Documentation/wiki) that documents the use of that module at the Museum. This is where we document any standards and workflows that are agreed by the respective working groups and departments. As well as any structural changes that have been approved and scheduled for development by Axiell.
 ### ebibliography (Bibliography)
-[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-workflows)
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-module) | [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ebibliography-workflows) | [established standrads](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#ebibliography)
 ### ecatalogue (Catalogue)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-workflows)
 ### ecollectionevents (Collection Events)
