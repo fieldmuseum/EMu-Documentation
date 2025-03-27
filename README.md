@@ -43,7 +43,7 @@ Each module has its own set of [wiki pages](https://github.com/fieldmuseum/EMu-D
 ### elocations (Locations)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/elocations-module) | [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/elocations-workflows) | [established standrads](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#elocations) 
 ### emultimedia (Multimedia)
-[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-workflows) [glossary](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-glossary)
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-module) | [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-workflows) | [established standards](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#emultimedia) | [glossary](https://github.com/fieldmuseum/EMu-Documentation/wiki/emultimedia-glossary)
 ### enarratives (Narratives)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/enarratives-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/enarratives-workflows)
 ### enhmstratigraphy (Stratigraphy)
