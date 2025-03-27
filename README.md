@@ -53,7 +53,7 @@ Each module has its own set of [wiki pages](https://github.com/fieldmuseum/EMu-D
 ### erights (Rights)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/ecatalogue-workflows)
 ### esites (Sites)
-[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/erights-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/erights-workflows) [Established Standrads](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#esites-1)
+[module](https://github.com/fieldmuseum/EMu-Documentation/wiki/erights-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/erights-workflows) [established standrads](https://github.com/fieldmuseum/EMu-Documentation/wiki/admin-ESTABLISHED-STANDARDS#esites-1)
 ### estandards (Standards)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/estandards-module)
 ### etaxonomy (Taxonomy)
