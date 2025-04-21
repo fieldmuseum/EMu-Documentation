@@ -37,7 +37,7 @@ Each module has its own set of [wiki pages](https://github.com/fieldmuseum/EMu-D
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/econservation-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/econservation-workflows)
 ### eevents (Events)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eevents-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eevents-workflows)
-### eexhibitobjects
+### eexhibitobjects (Exhibition Objects)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/eexhibitobjects-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/eexhibitobjects-workflows)
 ### efmnhrepatriation (Consultations)
 [module](https://github.com/fieldmuseum/EMu-Documentation/wiki/efmnhrepatriation-module) [workflows](https://github.com/fieldmuseum/EMu-Documentation/wiki/efmnhrepatriation-workflows)
