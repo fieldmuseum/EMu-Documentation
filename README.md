@@ -16,7 +16,7 @@ EMu meetings are now documented in the [discussion section](https://github.com/f
 ### Q&A's
   Any member of the EMu community can submit a non-urgent question to a meeting. Each of these has its own discussion item which is (as far as possible) answered at the meeting. If it cannot be answered fully then the user may be asked to create an IT helpdesk ticket and/or a github issue for tracking of any investigations and solutions to the question. 
 ### Relevant Reading
-  These discussions are used to docunent any data releated reading that users which to share with each other.
+  These discussions are used to document any data releated reading that users which to share with each other.
 ### Report Requests and Updates
   If a user wants a non-urgent report created or updated a discussion may be created, particularly if it is a cross-departmental shared report.
 ### Structural Changes
