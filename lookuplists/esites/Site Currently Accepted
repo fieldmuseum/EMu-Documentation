@@ -3,4 +3,4 @@ Column Names Affected: NEW FIELD: Currently Accepted?
 Lookup Level: 1
 Security: “Locked + Admin”
 Tab Switching: No
-Values: “Yes;” ”No”
+Values: “Current;” ”Alternate”;"Historical"
