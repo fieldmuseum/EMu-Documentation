@@ -1,0 +1,7 @@
+Name: Field Preservation
+Column Names Affected: TisFieldPreservation_tab
+Lookup Level: 1
+Security: “Locked + Admin”
+Tab Switching: No
+Level 1 Values: 70% EtOH; 75.5% EtOH; 75% EtOH; 80% EtOH; 95% EtOH; 100% EtOH; buffer; Collector; DMSO Buffer; EtOH; EtOH/TE; Frozen; Glutaraldehyde; Glutaraldehyde in Sorenson's phosphate buffer; Historic Sample; NAP; Queen's Lysis Buffer; RNAlater
+Notes:
