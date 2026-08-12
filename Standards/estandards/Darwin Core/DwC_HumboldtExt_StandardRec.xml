@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    integer         irn
+    text short      RecordType
+    text short      StandardName
+    table           DefinitionsRef_tab
+      text short      RecordType
+      integer         irn
+      text long       TermURI
+      text short      Term
+    end
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">76</atom>
+    <atom name="RecordType">Standard</atom>
+    <atom name="StandardName"></atom>
+    <table name="DefinitionsRef_tab">
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">80</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventID</atom>
+        <atom name="Term">dwc:eventID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">77</atom>
+        <atom name="TermURI">http://rs.tdwg.org/eco/terms/siteNestingDescription</atom>
+        <atom name="Term">eco:siteNestingDescription</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">78</atom>
+        <atom name="TermURI">http://rs.tdwg.org/eco/terms/siteCount</atom>
+        <atom name="Term">eco:siteCount</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">93</atom>
+        <atom name="TermURI">http://rs.tdwg.org/eco/terms/verbatimSiteNames</atom>
+        <atom name="Term">eco:verbatimSiteNames</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>

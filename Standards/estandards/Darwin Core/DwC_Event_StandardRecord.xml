@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    integer         irn
+    text short      RecordType
+    text short      StandardName
+    table           DefinitionsRef_tab
+      text short      RecordType
+      integer         irn
+      text long       TermURI
+      text short      Term
+    end
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">61</atom>
+    <atom name="RecordType">Standard</atom>
+    <atom name="StandardName"></atom>
+    <table name="DefinitionsRef_tab">
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">62</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventID</atom>
+        <atom name="Term">dwc:eventID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">70</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventDate</atom>
+        <atom name="Term">dwc:eventDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">65</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/iri/samplingProtocol</atom>
+        <atom name="Term">dwc:samplingProtocol</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">63</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/parentEventID</atom>
+        <atom name="Term">dwc:parentEventID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">71</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/countryCode</atom>
+        <atom name="Term">dwc:countryCode</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">81</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/datasetName</atom>
+        <atom name="Term">dwc:datasetName</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">82</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/identifiedBy</atom>
+        <atom name="Term">dwc:identifiedBy</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">83</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/identifiedByID</atom>
+        <atom name="Term">dwc:identifiedByID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">84</atom>
+        <atom name="TermURI">http://purl.org/dc/terms/modified</atom>
+        <atom name="Term">dcterms:modified</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">91</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventType</atom>
+        <atom name="Term">dwc:eventType</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">92</atom>
+        <atom name="TermURI">https://registry.gbif-uat.org/vocabulary/DatasetCategory</atom>
+        <atom name="Term">gbif:datasetCategory</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>

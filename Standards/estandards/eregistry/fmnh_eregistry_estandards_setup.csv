@@ -1,0 +1,48 @@
+Key1,Key2,Key3,Key4,Key5,Key6,Key7,Key8,Key9,Key10,Value
+Group,Default,Table,estandards,Column Access,Module,,,,,dvQuery;duQuery;dvDisplay;dvEdit;dvInsert;duInsert
+Group,Default,Table,estandards,Column Access,Script,,,,,dvQuery;duQuery;dvDisplay;dvEdit;dvInsert
+Group,Default,Table,estandards,Column Access,StandardName,,,,,dvQuery;duQuery;dvDisplay;dvEdit;dvInsert;duInsert
+Group,Default,Table,estandards,Column Access,TypeOfWhere,,,,,dvQuery;duQuery;dvDisplay;dvEdit;dvInsert
+Group,Default,Table,estandards,Column Access,WhereOperator,,,,,dvQuery;duQuery;dvDisplay;dvEdit;dvInsert
+Group,Default,Table,estandards,Column Access Modifier,FormatSpecifier,Script,,,,Script=+duInsert:+duEdit;TermFormatString=-duInsert:-duEdit
+Group,Default,Table,estandards,Column Access Modifier,FormatType_tab,Date,,,,FormatSeparator_tab=+duInsert:+duEdit
+Group,Default,Table,estandards,Column Access Modifier,FormatType_tab,Time,,,,FormatSeparator_tab=+duInsert:+duEdit
+Group,Default,Table,estandards,Column Access Modifier,WhereField_nesttab&WhereField_tab,NOT NULL,,,,TypeOfWhere=+duInsert:+duEdit;WhereOperator=+duInsert:+duEdit
+Group,Default,Table,estandards,Format,Script,,,,,
+Group,Default,Table,estandards,Insert Defaults,Base Defaults,,,,,RecordType=Term Definition
+Group,Default,Table,estandards,Lookup,ExtractName,,,,,readonly
+Group,Default,Table,estandards,Lookup,Format_tab,,,,,readonly
+Group,Default,Table,estandards,Lookup,FormatSpecifier,,,,,readonly
+Group,Default,Table,estandards,Lookup,FormatType_tab,,,,,readonly
+Group,Default,Table,estandards,Lookup,RowInclusion_tab,,,,,readonly
+Group,Default,Table,estandards,Lookup,StandardName,,,,,readonly
+Group,Default,Table,estandards,Lookup,StandardVersion,,,,,readonly
+Group,Default,Table,estandards,Lookup,Term,,,,,readonly
+Group,Default,Table,estandards,Lookup,TypeOfWhere,,,,,readonly
+Group,Default,Table,estandards,Lookup,WhereCondition_nesttab&WhereCondition_tab,,,,,readonly
+Group,Default,Table,estandards,Lookup,WhereOperator,,,,,readonly
+Group,Default,Table,estandards,Multiple Languages,DefinedTerm_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,Definitions_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,Field_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,Format_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,FormatSeparator_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,Module,,,,,false
+Group,Default,Table,estandards,Multiple Languages,NestedSeparator_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,Term,,,,,false
+Group,Default,Table,estandards,Multiple Languages,TermFormatString,,,,,false
+Group,Default,Table,estandards,Multiple Languages,TermURI,,,,,false
+Group,Default,Table,estandards,Multiple Languages,WhereBetweenValue_nesttab&WhereBetweenValue_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,WhereField_nesttab&WhereField_tab,,,,,false
+Group,Default,Table,estandards,Multiple Languages,WhereValue_nesttab&WhereValue_tab,,,,,false
+Group,Default,Table,estandards,Preview Record,Audiovisual Core,,,,,1238822
+Group,Default,Table,estandards,Preview Record,DwC Event Core,,,,,7781
+Group,Default,Table,estandards,Preview Record,DwC Humboldt extension,,,,,12008
+Group,Default,Table,estandards,Standard Extension,Darwin Core,Audiovisual Core,,,,MulMultiMediaRef_tab
+Group,Default,Table,estandards,Standard Extension,Darwin Core,Audubon Core,,,,MulMultiMediaRef_tab
+Group,Default,Table,estandards,Standard Extension,Darwin Core,Resource Relationship,,,,RelNhObjectRef_tab
+Group,Default,Table,estandards,Standard Extension,DwC Event Core,DwC Humboldt extension,,,,NarNarratives
+Group,Default,Table,estandards,Tabs,Default,,,,,All
+Group,Default,Table,estandards,Tabs,RecordType,Standard,,,,-AllDefTab;-AllScrTab;-QryDefTab;-QryScrTab
+Group,Default,Table,estandards,Tabs,RecordType,Term Definition,,,,-AllStaTab;-QryStaTab
+Group,Default,Table,estandards,Unique,ExtractName,,,,,
+Group,Default,Table,estandards,Unique,StandardName;Term,,,,,Each standard name and term pair must be unique

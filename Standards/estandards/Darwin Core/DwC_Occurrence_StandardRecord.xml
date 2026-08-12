@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    integer         irn
+    text short      RecordType
+    text short      StandardName
+    table           DefinitionsRef_tab
+      text short      RecordType
+      integer         irn
+      text long       TermURI
+      text short      Term
+    end
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">757</atom>
+    <atom name="RecordType">Standard</atom>
+    <atom name="StandardName"></atom>
+    <table name="DefinitionsRef_tab">
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">3</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:classificationCode</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">16</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dc:description</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">5</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:materials</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">14</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dc:title</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">17</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:uses</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">21</atom>
+        <atom name="TermURI">http://purl.org/dc/terms/accessRights</atom>
+        <atom name="Term">dc:accessRights</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">23</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:basisOfRecord</atom>
+        <atom name="Term">dwc:basisOfRecord</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">24</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/bed</atom>
+        <atom name="Term">dwc:bed</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">26</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/behavior</atom>
+        <atom name="Term">dwc:behavior</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">28</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/catalogNumber</atom>
+        <atom name="Term">dwc:catalogNumber</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">145</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/chronometricAgeDeterminedBy</atom>
+        <atom name="Term">dwc:chronometricAgeDeterminedBy</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">146</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/chronometricAgeDeterminedDate</atom>
+        <atom name="Term">dwc:chronometricAgeDeterminedDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">147</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/chronometricAgeProtocol</atom>
+        <atom name="Term">dwc:chronometricAgeProtocol</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">148</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/chronometricAgeRemarks</atom>
+        <atom name="Term">dwc:chronometricAgeRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">149</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/chronometricAgeUncertaintyInYears</atom>
+        <atom name="Term">dwc:chronometricAgeUncertaintyInYears</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">150</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dcterms:bibliographicCitation</atom>
+        <atom name="Term">dwc:bibliographicCitation</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">151</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/class</atom>
+        <atom name="Term">dwc:class</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">152</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/collectionCode</atom>
+        <atom name="Term">dwc:collectionCode</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">153</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#recordedBy</atom>
+        <atom name="Term">dwc:recordedBy</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">154</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:eventDate</atom>
+        <atom name="Term">dwc:eventDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">155</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:eventTime</atom>
+        <atom name="Term">dwc:eventTime</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">156</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/continent</atom>
+        <atom name="Term">dwc:continent</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">157</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/coordinatePrecision</atom>
+        <atom name="Term">dwc:coordinatePrecision</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">158</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters</atom>
+        <atom name="Term">dwc:coordinateUncertaintyInMeters</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">159</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/countryCode</atom>
+        <atom name="Term">dwc:country</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">160</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/countryCode</atom>
+        <atom name="Term">dwc:countryCode</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">161</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/county</atom>
+        <atom name="Term">dwc:county</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">162</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/dataGeneralizations</atom>
+        <atom name="Term">dwc:dataGeneralizations</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">163</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/datasetName</atom>
+        <atom name="Term">dwc:datasetName</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">164</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:dateIdentified</atom>
+        <atom name="Term">dwc:dateIdentified</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">165</atom>
+        <atom name="TermURI">http://purl.org/dc/terms/modified</atom>
+        <atom name="Term">dc:modified</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">166</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/day</atom>
+        <atom name="Term">dwc:day</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">167</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/decimalLatitude</atom>
+        <atom name="Term">dwc:decimalLatitude</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">168</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/decimalLongitude</atom>
+        <atom name="Term">fmnh:decimalLongitude</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">169</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/disposition</atom>
+        <atom name="Term">dwc:disposition</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">170</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/earliestAgeOrLowestStage</atom>
+        <atom name="Term">dwc:earliestAgeOrLowestStage</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">171</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/earliestChronometricAge</atom>
+        <atom name="Term">dwc:earliestChronometricAge</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">172</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem</atom>
+        <atom name="Term">dwc:earliestEonOrLowestEonothem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">173</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries</atom>
+        <atom name="Term">dwc:earliestEpochOrLowestSeries</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">174</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem</atom>
+        <atom name="Term">dwc:earliestEraOrLowestErathem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">175</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem</atom>
+        <atom name="Term">dwc:earliestPeriodOrLowestSystem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">176</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/family</atom>
+        <atom name="Term">dwc:family</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">177</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/iri/fieldNotes</atom>
+        <atom name="Term">dwc:fieldNotes</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">178</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/fieldNumber</atom>
+        <atom name="Term">dwc:fieldNumber</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">179</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/formation</atom>
+        <atom name="Term">dwc:formation</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">180</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/associatedSequences</atom>
+        <atom name="Term">dwc:associatedSequences</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">181</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/genus</atom>
+        <atom name="Term">dwc:genus</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">182</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/georeferencedBy</atom>
+        <atom name="Term">dwc:georeferencedBy</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">183</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/georeferencedDate</atom>
+        <atom name="Term">dwc:georeferencedDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">184</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/georeferenceSources</atom>
+        <atom name="Term">dwc:georeferenceSources</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">185</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/occurrenceID</atom>
+        <atom name="Term">dwc:occurrenceID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">186</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/formation</atom>
+        <atom name="Term">dwc:group</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">187</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/habitat</atom>
+        <atom name="Term">dwc:habitat</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">188</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dwc:higherGeography</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">189</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/higherGeography</atom>
+        <atom name="Term">dwc:higherGeographyID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">190</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/highestBiostratigraphicZone</atom>
+        <atom name="Term">dwc:highestBiostratigraphicZone</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">191</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:identificationQualifier</atom>
+        <atom name="Term">dwc:identificationQualifier</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">192</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:identifiedBy</atom>
+        <atom name="Term">dwc:identifiedBy</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">193</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/associatedMedia</atom>
+        <atom name="Term">dwc:associatedMedia</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">194</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/individualCount</atom>
+        <atom name="Term">dwc:individualCount</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">195</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/informationWithheld</atom>
+        <atom name="Term">dwc:informationWithheld</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">196</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet</atom>
+        <atom name="Term">dwc:infraspecificEpithet</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">197</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/institutionCode</atom>
+        <atom name="Term">dwc:InsitutionCode</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">198</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/island</atom>
+        <atom name="Term">dwc:island</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">199</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/islandGroup</atom>
+        <atom name="Term">dwc:islandGroup</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">200</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/kingdom</atom>
+        <atom name="Term">dwc:kingdom</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">201</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/latestAgeOrHighestStage</atom>
+        <atom name="Term">dwc:latestAgeOrHighestStage</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">202</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/latestChronometricAge</atom>
+        <atom name="Term">dwc:latestChronometricAge</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">203</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem</atom>
+        <atom name="Term">dwc:latestEonOrHighestEonothem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">204</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries</atom>
+        <atom name="Term">dwc:latestEpochOrHighestSeries</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">264</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/latestEonOrHighestErathem</atom>
+        <atom name="Term">dwc:latestEraOrHighestErathem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">206</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem</atom>
+        <atom name="Term">dwc:latestPeriodOrHighestSystem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">207</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dcterms:license</atom>
+        <atom name="Term">dc:license</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">208</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/lifeStage</atom>
+        <atom name="Term">dwc:lifestage</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">209</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms</atom>
+        <atom name="Term">dwc:lithostratigraphicTerms</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">210</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/locality</atom>
+        <atom name="Term">dwc:locality</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">211</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/locationID</atom>
+        <atom name="Term">dwc:locationID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">212</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone</atom>
+        <atom name="Term">dwc:lowestBiostratigraphicZone</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">213</atom>
+        <atom name="TermURI">http://rs.tdwg.org/chrono/terms/materialDated</atom>
+        <atom name="Term">dwc:materialDated</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">214</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/maximumDepthInMeters</atom>
+        <atom name="Term">dwc:maximumDepthInMeters</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">215</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/maximumElevationInMeters</atom>
+        <atom name="Term">dwc:maximumElevationInMeters</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">216</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/measurementDeterminedBy</atom>
+        <atom name="Term">dwc:measurementDeterminedBy</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">217</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/measurementDeterminedDate</atom>
+        <atom name="Term">dwc:measurementDeterminedDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">218</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/measurementRemarks</atom>
+        <atom name="Term">dwc:measurementRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">219</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/measurementType</atom>
+        <atom name="Term">dwc:measurementType</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">220</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/measurementUnit</atom>
+        <atom name="Term">dwc:measurementUnit</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">221</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/measurementValue</atom>
+        <atom name="Term">dwc:measurementValue</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">222</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/member</atom>
+        <atom name="Term">dwc:member</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">223</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/minimumDepthInMeters</atom>
+        <atom name="Term">dwc:minimumDepthInMeters</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">224</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/minimumElevationInMeters</atom>
+        <atom name="Term">dwc:minimumElevationInMeters</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">225</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/month</atom>
+        <atom name="Term">dwc:month</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">226</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/municipality</atom>
+        <atom name="Term">dwc:municipality</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">227</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:namePublishedInYear</atom>
+        <atom name="Term">dwc:namePublishedInYear</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">228</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/nomenclaturalCode</atom>
+        <atom name="Term">dwc:nomenclaturalCode</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">229</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/order</atom>
+        <atom name="Term">dwc:order</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">230</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem</atom>
+        <atom name="Term">dwc:verbatimCoordinateSystem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">231</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/otherCatalogNumbers</atom>
+        <atom name="Term">dwc:otherCatalogNumbers</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">232</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/phylum</atom>
+        <atom name="Term">dwc:phylum</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">696</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/preparations</atom>
+        <atom name="Term">dwc:preparations</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">261</atom>
+        <atom name="TermURI">https://terms.tdwg.org/wiki/ggbn:preparationType</atom>
+        <atom name="Term">ggbn:preparationType</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">260</atom>
+        <atom name="TermURI">https://terms.tdwg.org/wiki/ggbn:preparationMaterials</atom>
+        <atom name="Term">ggbn:preparationMaterials</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">259</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:recordNumber</atom>
+        <atom name="Term">dwc:recordNumber</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">258</atom>
+        <atom name="TermURI">http://purl.org/dc/terms/references</atom>
+        <atom name="Term">dwc:references</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">257</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/relatedResourceID</atom>
+        <atom name="Term">dwc:relatedResourceId</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">256</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/relationshipAccordingTo</atom>
+        <atom name="Term">dwc:relationshipAccordingTo</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">255</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/relationshipRemarks</atom>
+        <atom name="Term">dwc:relationshipRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">254</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks</atom>
+        <atom name="Term">dwc:occurenceRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">253</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:reproductiveCondition</atom>
+        <atom name="Term">dwc:reproductiveCondition</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">252</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/resourceID</atom>
+        <atom name="Term">dwc:resourceId</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">251</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/resourceRelationshipID</atom>
+        <atom name="Term">dwc:resourceRelationshipID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">236</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dwc:rightsHolder</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">249</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:samplingProtocol</atom>
+        <atom name="Term">dwc:samplingProtocol</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">248</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/scientificName</atom>
+        <atom name="Term">dwc:scientificName</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">247</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/scientificNameAuthorship</atom>
+        <atom name="Term">dwc:scientificNameAuthorship</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">246</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/iri/sex</atom>
+        <atom name="Term">dwc:sex</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">245</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/specificEpithet</atom>
+        <atom name="Term">dwc:specificEpithet</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">244</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/stateProvince</atom>
+        <atom name="Term">dwc:stateProvince</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">243</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:subgenus</atom>
+        <atom name="Term">dwc:subgenus</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">242</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/taxonID</atom>
+        <atom name="Term">dwc:taxonID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">55</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/taxonRank</atom>
+        <atom name="Term">dwc:taxonRank</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">54</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:taxonRemarks</atom>
+        <atom name="Term">dwc:taxonRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">53</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dwc:typeStatus</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">52</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/verbatimEventDate</atom>
+        <atom name="Term">dwc:verbatimEventDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">51</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/verbatimDepth</atom>
+        <atom name="Term">dwc:verbatimDepth</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">50</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/verbatimElevation</atom>
+        <atom name="Term">dwc:verbatimElevation</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">49</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/verbatimLatitude</atom>
+        <atom name="Term">dwc:verbatimLatitude</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">48</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/verbatimLongitude</atom>
+        <atom name="Term">dwc:verbatimLongitude</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">47</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/vernacularName</atom>
+        <atom name="Term">dwc:vernacularName</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">46</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/waterBody</atom>
+        <atom name="Term">dwc:waterbody</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">45</atom>
+        <atom name="TermURI">https://github.com/tdwg/cd/issues/273</atom>
+        <atom name="Term">cd:waterbodyType</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">44</atom>
+        <atom name="TermURI">https://dwc.tdwg.org/terms/#dwc:year</atom>
+        <atom name="Term">dwc:year</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">43</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:continentOcean</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">42</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/EndTimeOfDay</atom>
+        <atom name="Term">fmnh:endTimeOfDay</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">41</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:startJulianDay</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">40</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/StartTimeOfDay</atom>
+        <atom name="Term">fmnh:startTimeOfDay</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">39</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dwc:subSpecies</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">38</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:endDayCollected</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">37</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:endJulianDay</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">36</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:endMonthCollected</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">35</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:endYearCollected</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">34</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:relatedCatalogItem</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">32</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:salinity</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">31</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">fmnh:temperature</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">30</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/georeferenceProtocol</atom>
+        <atom name="Term">dwc:georeferenceProtocol</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">29</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/iri/geodeticDatum</atom>
+        <atom name="Term">dwc:geodeticDatum</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">27</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/identificationRemarks</atom>
+        <atom name="Term">dwc:identificationRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">25</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/georeferenceRemarks</atom>
+        <atom name="Term">dwc:georeferenceRemarks</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">22</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/relationshipOfResource</atom>
+        <atom name="Term">dwc:relationshipOfResource</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">20</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dwc:higherClassification</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">15</atom>
+        <atom name="TermURI"></atom>
+        <atom name="Term">dwc:footprintWKT</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>

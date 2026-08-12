@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    date            AdmDateInserted
+    date            AdmDateModified
+    table           guid
+      text short      AdmGUIDIsPreferred
+      text short      AdmGUIDType
+      text short      AdmGUIDValue
+    end
+    text short      AdmImportIdentifier
+    text short      AdmInsertedBy
+    text short      AdmModifiedBy
+    text long       AdmOriginalData
+    text short      AdmPublishWebNoPassword
+    text short      AdmPublishWebPassword
+    text short      AdmSystemIdentifier
+    time            AdmTimeInserted
+    time            AdmTimeModified
+    table           BetweenValue_nesttab
+      table           BetweenValue_nesttab_inner
+        text short      BetweenValue
+      end
+    end
+    text short      CollapseEmptyValues
+    table           DefinedTerm_tab
+      text short      DefinedTerm
+    end
+    table           DefinitionsRef_tab
+      integer         definitionsRef_tab_irn
+    end
+    text long       Errors
+    text long       ExtendedData
+    text short      ExtractName
+    table           Field_tab
+      text short      Field
+    end
+    table           Format_tab
+      text short      Format
+    end
+    table           FormatSeparator_tab
+      text short      FormatSeparator
+    end
+    text short      FormatSpecifier
+    table           FormatType_tab
+      text short      FormatType
+    end
+    integer         irn
+    text short      Module
+    table           NestedSeparator_tab
+      text short      NestedSeparator
+    end
+    text long       NotNotes
+    table           note
+      table           NteAttributedToRef_nesttab
+        integer         NteAttributedToRef
+      end
+      table           NteBibliographyRef_nesttab
+        integer         NteBibliographyRef
+      end
+      date            NteDate
+      text long       NteText
+      text short      NteType
+    end
+    text short      RecordType
+    text short      RemoveDuplicateValues
+    table           RowInclusion_tab
+      text short      RowInclusion
+    end
+    text long       Script
+    table           SecDepartment_tab
+      text short      SecDepartment
+    end
+    text short      SecRecordStatus
+    text short      StandardName
+    text short      StandardVersion
+    text short      Status
+    text short      SummaryData
+    text short      Term
+    text long       TermFormatString
+    text long       TermURI
+    text short      TypeOfWhere
+    table           Value_nesttab
+      table           Value_nesttab_inner
+        text short      Value
+      end
+    end
+    table           where
+      table           WhereCondition_nesttab
+        text short      WhereCondition
+      end
+      table           WhereField_nesttab
+        text short      WhereField
+      end
+      table           WhereKind_nesttab
+        text short      WhereKind
+      end
+      table           WhereType_nesttab
+        text short      WhereType
+      end
+    end
+    text short      WhereOperator
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-07</atom>
+    <atom name="AdmDateModified">2024-05-07</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">17:31:33</atom>
+    <atom name="AdmTimeModified">17:33:13</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">80
+Term Definition [Active] dwc:eventID - DwC Humboldt extension 2024-05-01</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveEventsRef_tab.eevents.AdmGUIDValue_tab</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">80</atom>
+    <atom name="Module">enarratives</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Humboldt extension</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:eventID - DwC Humboldt extension 2024-05-01</atom>
+    <atom name="Term">dwc:eventID</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventID</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Yes</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">EveEventsRef_tab.eevents.AdmGUIDIsPreferred_tab</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+          <tuple>
+            <atom name="WhereKind">Table</atom>
+          </tuple>
+        </table>
+        <table name="WhereType_nesttab">
+          <tuple>
+            <atom name="WhereType">Text</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-06</atom>
+    <atom name="AdmDateModified">2024-05-06</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">22:47:48</atom>
+    <atom name="AdmTimeModified">23:12:58</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">77
+Term Definition [Active] eco:siteNestingDescription - DwC Humboldt extension 2024-05-01</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">ColCollectionEventsRef_tab.ecollectionevents.NteText0</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">77</atom>
+    <atom name="Module">enarratives</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Humboldt extension</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] eco:siteNestingDescription - DwC Humboldt extension 2024-05-01</atom>
+    <atom name="Term">eco:siteNestingDescription</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/eco/terms/siteNestingDescription</atom>
+    <atom name="TypeOfWhere">Row Select</atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Extended Survey Methods</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">ColCollectionEventsRef_tab.ecollectionevents.NteType_tab</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+          <tuple>
+            <atom name="WhereKind">Table</atom>
+          </tuple>
+        </table>
+        <table name="WhereType_nesttab">
+          <tuple>
+            <atom name="WhereType">Text</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-07</atom>
+    <atom name="AdmDateModified">2024-06-09</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">17:25:30</atom>
+    <atom name="AdmTimeModified">11:09:24</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">78
+Term Definition [Active] eco:siteCount - DwC Humboldt extension 2024-05-01 (Script)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveEventsRef_tab.eevents.VenGeographicalLocationRef_tab.esites.irn</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">Script</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Integer</atom>
+      </tuple>
+    </table>
+    <atom name="irn">78</atom>
+    <atom name="Module">enarratives</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <table name="RowInclusion_tab">
+      <tuple>
+        <atom name="RowInclusion">All Rows</atom>
+      </tuple>
+    </table>
+    <atom name="Script">sub
+fieldFormat
+{
+  my @siteCount = split(/\|/, $fields[0]);
+  my $fieldSize = @siteCount;
+  return $fieldSize;
+}</atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Humboldt extension</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] eco:siteCount - DwC Humboldt extension 2024-05-01 (Script)</atom>
+    <atom name="Term">eco:siteCount</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/eco/terms/siteCount</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-06-07</atom>
+    <atom name="AdmDateModified">2024-06-07</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">14:00:17</atom>
+    <atom name="AdmTimeModified">14:06:23</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">93
+Term Definition [Active] eco:verbatimSiteNames - DwC Humboldt extension 2024-03-22</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveEventsRef_tab.eevents.VenGeographicalLocationRef_tab.esites.SummaryData</atom>
+      </tuple>
+    </table>
+    <table name="FormatSeparator_tab">
+      <tuple>
+        <atom name="FormatSeparator">,</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">93</atom>
+    <atom name="Module">enarratives</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <table name="RowInclusion_tab">
+      <tuple>
+        <atom name="RowInclusion">All Rows</atom>
+      </tuple>
+    </table>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Humboldt extension</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] eco:verbatimSiteNames - DwC Humboldt extension 2024-03-22</atom>
+    <atom name="Term">eco:verbatimSiteNames</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/eco/terms/verbatimSiteNames</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+</table>

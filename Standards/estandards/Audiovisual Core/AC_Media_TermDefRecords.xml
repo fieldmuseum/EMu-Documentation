@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    date            AdmDateInserted
+    date            AdmDateModified
+    table           guid
+      text short      AdmGUIDIsPreferred
+      text short      AdmGUIDType
+      text short      AdmGUIDValue
+    end
+    text short      AdmImportIdentifier
+    text short      AdmInsertedBy
+    text short      AdmModifiedBy
+    text long       AdmOriginalData
+    text short      AdmPublishWebNoPassword
+    text short      AdmPublishWebPassword
+    text short      AdmSystemIdentifier
+    time            AdmTimeInserted
+    time            AdmTimeModified
+    table           BetweenValue_nesttab
+      table           BetweenValue_nesttab_inner
+        text short      BetweenValue
+      end
+    end
+    text short      CollapseEmptyValues
+    table           DefinedTerm_tab
+      text short      DefinedTerm
+    end
+    table           DefinitionsRef_tab
+      integer         definitionsRef_tab_irn
+    end
+    text long       Errors
+    text long       ExtendedData
+    text short      ExtractName
+    table           Field_tab
+      text short      Field
+    end
+    table           Format_tab
+      text short      Format
+    end
+    table           FormatSeparator_tab
+      text short      FormatSeparator
+    end
+    text short      FormatSpecifier
+    table           FormatType_tab
+      text short      FormatType
+    end
+    integer         irn
+    text short      Module
+    table           NestedSeparator_tab
+      text short      NestedSeparator
+    end
+    text long       NotNotes
+    table           note
+      table           NteAttributedToRef_nesttab
+        integer         NteAttributedToRef
+      end
+      table           NteBibliographyRef_nesttab
+        integer         NteBibliographyRef
+      end
+      date            NteDate
+      text long       NteText
+      text short      NteType
+    end
+    text short      RecordType
+    text short      RemoveDuplicateValues
+    table           RowInclusion_tab
+      text short      RowInclusion
+    end
+    text long       Script
+    table           SecDepartment_tab
+      text short      SecDepartment
+    end
+    text short      SecRecordStatus
+    text short      StandardName
+    text short      StandardVersion
+    text short      Status
+    text short      SummaryData
+    text short      Term
+    text long       TermFormatString
+    text long       TermURI
+    text short      TypeOfWhere
+    table           Value_nesttab
+      table           Value_nesttab_inner
+        text short      Value
+      end
+    end
+    table           where
+      table           WhereCondition_nesttab
+        text short      WhereCondition
+      end
+      table           WhereField_nesttab
+        text short      WhereField
+      end
+      table           WhereKind_nesttab
+        text short      WhereKind
+      end
+      table           WhereType_nesttab
+        text short      WhereType
+      end
+    end
+    text short      WhereOperator
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-22</atom>
+    <atom name="AdmDateModified">2024-05-23</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">09:09:44</atom>
+    <atom name="AdmTimeModified">13:42:58</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">87
+Term Definition [Active] dwc:occurrenceID - Audiovisual Core 2024-03-22</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">ecatalogue:MulMultiMediaRef_tab.DarGlobalUniqueIdentifier</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">87</atom>
+    <atom name="Module">emultimedia</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">Audiovisual Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:occurrenceID - Audiovisual Core 2024-03-22</atom>
+    <atom name="Term">dwc:occurrenceID</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/occurrenceID</atom>
+    <atom name="TypeOfWhere"></atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Yes</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">ecatalogue:MulMultiMediaRef_tab.AdmPublishWebNoPassword</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+          <tuple>
+            <atom name="WhereKind">Atom</atom>
+          </tuple>
+        </table>
+        <table name="WhereType_nesttab">
+          <tuple>
+            <atom name="WhereType">Text</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator"></atom>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="AdmDateInserted">2022-10-05</atom>
+    <atom name="AdmDateModified">2024-06-24</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">KE EMu Administrator</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">Yes</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">12:00:35</atom>
+    <atom name="AdmTimeModified">19:41:43</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">730
+Term Definition [Active] dc:identifier - Audubon Core 2022-11-08</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">AdmGUIDValue_tab</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">730</atom>
+    <atom name="Module">emultimedia</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">No</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">Audubon Core</atom>
+    <atom name="StandardVersion">2022-11-08</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dc:identifier - Audubon Core 2022-11-08</atom>
+    <atom name="Term">dc:identifier</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">nttp://purl.org/dc/terms/identifier</atom>
+    <atom name="TypeOfWhere">Row Select</atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Yes</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">AdmGUIDIsPreferred_tab</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+          <tuple>
+            <atom name="WhereKind">Table</atom>
+          </tuple>
+        </table>
+        <table name="WhereType_nesttab">
+          <tuple>
+            <atom name="WhereType">Text</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="AdmDateInserted">2022-09-12</atom>
+    <atom name="AdmDateModified">2024-06-24</atom>
+    <atom name="AdmImportIdentifier">emultimedia - Audubon Core: row[63]</atom>
+    <atom name="AdmInsertedBy">KE EMu Administrator</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">12:34:16</atom>
+    <atom name="AdmTimeModified">19:11:04</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">648
+Term Definition [Active] dcterms:description - Dublin Core Terms 2022-11-08 (Script)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">MulDescription</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">Script</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">648</atom>
+    <atom name="Module">emultimedia</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script">sub
+fieldFormat
+{
+    if (! @fields)
+    {
+        return("");
+    }
+    $fields[0] =~ s/\n/\|/g;
+    $fields[0] =~ s/"//g;
+    return $fields[0];
+}</atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">Dublin Core Terms</atom>
+    <atom name="StandardVersion">2022-11-08</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dcterms:description - Dublin Core Terms 2022-11-08 (Script)</atom>
+    <atom name="Term">dcterms:description</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://purl.org/dc/terms/description </atom>
+    <atom name="TypeOfWhere"></atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator"></atom>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="AdmDateInserted">2025-03-13</atom>
+    <atom name="AdmDateModified">2025-03-13</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">12:20:04</atom>
+    <atom name="AdmTimeModified">12:27:43</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">99
+Term Definition [2022] dc:creator - Audiovisual Core 2024-03-22</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">ecatalogue:MulMultiMediaRef_tab.MulMultiMediaRef_tab.emultimedia.MulMultimediaCreatorRef_tab.eparties.SummaryData</atom>
+      </tuple>
+    </table>
+    <table name="FormatSeparator_tab">
+      <tuple>
+        <atom name="FormatSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">99</atom>
+    <atom name="Module">emultimedia</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <table name="RowInclusion_tab">
+      <tuple>
+        <atom name="RowInclusion">All Rows</atom>
+      </tuple>
+    </table>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">Audiovisual Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">2022</atom>
+    <atom name="SummaryData">Term Definition [2022] dc:creator - Audiovisual Core 2024-03-22</atom>
+    <atom name="Term">dc:creator</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://purl.org/dc/elements/1.1/creator</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Yes</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">ecatalogue:MulMultiMediaRef_tab.MulMultiMediaRef_tab.emultimedia.AdmPublishWebNoPassword</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+          <tuple>
+            <atom name="WhereKind">Atom</atom>
+          </tuple>
+        </table>
+        <table name="WhereType_nesttab">
+          <tuple>
+            <atom name="WhereType">Text</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+</table>

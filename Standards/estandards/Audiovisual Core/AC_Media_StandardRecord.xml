@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    integer         irn
+    text short      RecordType
+    text short      StandardName
+    table           DefinitionsRef_tab
+      text short      RecordType
+      integer         irn
+      text long       TermURI
+      text short      Term
+    end
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="irn">88</atom>
+    <atom name="RecordType">Standard</atom>
+    <atom name="StandardName"></atom>
+    <table name="DefinitionsRef_tab">
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">87</atom>
+        <atom name="TermURI">http://rs.tdwg.org/dwc/terms/occurrenceID</atom>
+        <atom name="Term">dwc:occurrenceID</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">730</atom>
+        <atom name="TermURI">nttp://purl.org/dc/terms/identifier</atom>
+        <atom name="Term">dc:identifier</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">648</atom>
+        <atom name="TermURI">http://purl.org/dc/terms/description </atom>
+        <atom name="Term">dcterms:description</atom>
+      </tuple>
+      <tuple>
+        <atom name="RecordType">Term Definition</atom>
+        <atom name="irn">99</atom>
+        <atom name="TermURI">http://purl.org/dc/elements/1.1/creator</atom>
+        <atom name="Term">dc:creator</atom>
+      </tuple>
+    </table>
+  </tuple>
+</table>

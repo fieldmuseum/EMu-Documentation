@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table
+[
+  <!ELEMENT table	(tuple)*>
+  <!ATTLIST table
+            name	CDATA #REQUIRED
+  >
+
+  <!ELEMENT tuple	(table|tuple|atom)*>
+  <!ATTLIST tuple
+            name	CDATA #IMPLIED
+  >
+
+  <!ELEMENT atom	(#PCDATA)*>
+  <!ATTLIST atom
+            name	CDATA #REQUIRED
+            type	CDATA "text"
+            size	CDATA "short"
+  >
+]
+>
+<?schema
+  table           estandards
+    date            AdmDateInserted
+    date            AdmDateModified
+    table           guid
+      text short      AdmGUIDIsPreferred
+      text short      AdmGUIDType
+      text short      AdmGUIDValue
+    end
+    text short      AdmImportIdentifier
+    text short      AdmInsertedBy
+    text short      AdmModifiedBy
+    text long       AdmOriginalData
+    text short      AdmPublishWebNoPassword
+    text short      AdmPublishWebPassword
+    text short      AdmSystemIdentifier
+    time            AdmTimeInserted
+    time            AdmTimeModified
+    table           BetweenValue_nesttab
+      table           BetweenValue_nesttab_inner
+        text short      BetweenValue
+      end
+    end
+    text short      CollapseEmptyValues
+    table           DefinedTerm_tab
+      text short      DefinedTerm
+    end
+    table           DefinitionsRef_tab
+      integer         definitionsRef_tab_irn
+    end
+    text long       Errors
+    text long       ExtendedData
+    text short      ExtractName
+    table           Field_tab
+      text short      Field
+    end
+    table           Format_tab
+      text short      Format
+    end
+    table           FormatSeparator_tab
+      text short      FormatSeparator
+    end
+    text short      FormatSpecifier
+    table           FormatType_tab
+      text short      FormatType
+    end
+    integer         irn
+    text short      Module
+    table           NestedSeparator_tab
+      text short      NestedSeparator
+    end
+    text long       NotNotes
+    table           note
+      table           NteAttributedToRef_nesttab
+        integer         NteAttributedToRef
+      end
+      table           NteBibliographyRef_nesttab
+        integer         NteBibliographyRef
+      end
+      date            NteDate
+      text long       NteText
+      text short      NteType
+    end
+    text short      RecordType
+    text short      RemoveDuplicateValues
+    table           RowInclusion_tab
+      text short      RowInclusion
+    end
+    text long       Script
+    table           SecDepartment_tab
+      text short      SecDepartment
+    end
+    text short      SecRecordStatus
+    text short      StandardName
+    text short      StandardVersion
+    text short      Status
+    text short      SummaryData
+    text short      Term
+    text long       TermFormatString
+    text long       TermURI
+    text short      TypeOfWhere
+    table           Value_nesttab
+      table           Value_nesttab_inner
+        text short      Value
+      end
+    end
+    table           where
+      table           WhereCondition_nesttab
+        text short      WhereCondition
+      end
+      table           WhereField_nesttab
+        text short      WhereField
+      end
+      table           WhereKind_nesttab
+        text short      WhereKind
+      end
+      table           WhereType_nesttab
+        text short      WhereType
+      end
+    end
+    text short      WhereOperator
+  end
+?>
+<!-- Data -->
+<table name="estandards">
+
+  <!-- Row 1 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-01</atom>
+    <atom name="AdmDateModified">2024-05-03</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">21:21:48</atom>
+    <atom name="AdmTimeModified">06:24:38</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">62
+Term Definition [Active] dwc:eventID - DwC Event Core 2024-05-01</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">AdmGUIDValue_tab</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">62</atom>
+    <atom name="Module">eevents</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:eventID - DwC Event Core 2024-05-01</atom>
+    <atom name="Term">dwc:eventID</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventID</atom>
+    <atom name="TypeOfWhere">Row Select</atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Yes</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">AdmGUIDIsPreferred_tab</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+        </table>
+        <table name="WhereType_nesttab">
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 2 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-05</atom>
+    <atom name="AdmDateModified">2024-05-05</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">13:01:10</atom>
+    <atom name="AdmTimeModified">13:08:31</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">70
+Term Definition [Active] dwc:eventDate - DwC Event Core 2024-05-01</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">DatCommencementDate</atom>
+      </tuple>
+      <tuple>
+        <atom name="Field">DatCompletionDate</atom>
+      </tuple>
+    </table>
+    <table name="Format_tab">
+      <tuple>
+        <atom name="Format">ISO-8601</atom>
+      </tuple>
+      <tuple>
+        <atom name="Format">ISO-8601</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Date</atom>
+      </tuple>
+      <tuple>
+        <atom name="FormatType">Date</atom>
+      </tuple>
+    </table>
+    <atom name="irn">70</atom>
+    <atom name="Module">eevents</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:eventDate - DwC Event Core 2024-05-01</atom>
+    <atom name="Term">dwc:eventDate</atom>
+    <atom name="TermFormatString">%s/%s</atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventDate</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 3 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-01</atom>
+    <atom name="AdmDateModified">2024-05-01</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">21:43:10</atom>
+    <atom name="AdmTimeModified">21:53:54</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">65
+Term Definition [Active] dwc:samplingProtocol - DwC Event Core 2024-05-01 (String)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">enarratives:EveEventsRef_tab.NarTitle</atom>
+      </tuple>
+    </table>
+    <table name="FormatSeparator_tab">
+      <tuple>
+        <atom name="FormatSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">String</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">65</atom>
+    <atom name="Module">eevents</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <table name="RowInclusion_tab">
+      <tuple>
+        <atom name="RowInclusion">All Rows</atom>
+      </tuple>
+    </table>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:samplingProtocol - DwC Event Core 2024-05-01 (String)</atom>
+    <atom name="Term">dwc:samplingProtocol</atom>
+    <atom name="TermFormatString">%s</atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/iri/samplingProtocol</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 4 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-01</atom>
+    <atom name="AdmDateModified">2024-05-03</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">21:34:00</atom>
+    <atom name="AdmTimeModified">06:25:13</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">63
+Term Definition [Active] dwc:parentEventID - DwC Event Core 2024-05-01</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveMasterEventRef.eevents.AdmGUIDValue_tab</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">63</atom>
+    <atom name="Module">eevents</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:parentEventID - DwC Event Core 2024-05-01</atom>
+    <atom name="Term">dwc:parentEventID</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/parentEventID</atom>
+    <atom name="TypeOfWhere">Row Select</atom>
+    <table name="Value_nesttab">
+      <tuple>
+        <table name="Value_nesttab_inner">
+          <tuple>
+            <atom name="Value">Yes</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <table name="where">
+      <tuple>
+        <table name="WhereCondition_nesttab">
+          <tuple>
+            <atom name="WhereCondition">Equals</atom>
+          </tuple>
+        </table>
+        <table name="WhereField_nesttab">
+          <tuple>
+            <atom name="WhereField">EveMasterEventRef.eevents.AdmGUIDIsPreferred_tab</atom>
+          </tuple>
+        </table>
+        <table name="WhereKind_nesttab">
+          <tuple>
+            <atom name="WhereKind">Table</atom>
+          </tuple>
+        </table>
+        <table name="WhereType_nesttab">
+          <tuple>
+            <atom name="WhereType">Text</atom>
+          </tuple>
+        </table>
+      </tuple>
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 5 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-05</atom>
+    <atom name="AdmDateModified">2024-05-05</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">17:01:56</atom>
+    <atom name="AdmTimeModified">18:03:03</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">71
+Term Definition [Active] dwc:countryCode - DwC Event Core 2024-05-01 (String)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">VenGeographicalLocationRef_tab.esites.Pol2LetterCode</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">String</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">71</atom>
+    <atom name="Module">eevents</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:countryCode - DwC Event Core 2024-05-01 (String)</atom>
+    <atom name="Term">dwc:countryCode</atom>
+    <atom name="TermFormatString">%s</atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/countryCode</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 6 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-08</atom>
+    <atom name="AdmDateModified">2024-05-08</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">06:46:58</atom>
+    <atom name="AdmTimeModified">07:06:26</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">81
+Term Definition [Active] dwc:datasetName - DwC Event Core 2024-03-22</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveEventNumber</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">81</atom>
+    <atom name="Module">eevents</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:datasetName - DwC Event Core 2024-03-22</atom>
+    <atom name="Term">dwc:datasetName</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/datasetName</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 7 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-08</atom>
+    <atom name="AdmDateModified">2024-05-08</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">07:09:03</atom>
+    <atom name="AdmTimeModified">07:11:52</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">Yes</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">82
+Term Definition [Active] dwc:identifiedBy - DwC Event Core 2024-03-22</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveEventOrganisersRef_tab.eparties.SummaryData</atom>
+      </tuple>
+    </table>
+    <table name="FormatSeparator_tab">
+      <tuple>
+        <atom name="FormatSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">82</atom>
+    <atom name="Module">eevents</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <table name="RowInclusion_tab">
+      <tuple>
+        <atom name="RowInclusion">All Rows</atom>
+      </tuple>
+    </table>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:identifiedBy - DwC Event Core 2024-03-22</atom>
+    <atom name="Term">dwc:identifiedBy</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/identifiedBy</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 8 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-08</atom>
+    <atom name="AdmDateModified">2024-05-08</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">07:17:47</atom>
+    <atom name="AdmTimeModified">07:20:18</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">83
+Term Definition [Active] dwc:identifiedByID - DwC Event Core 2024-03-22</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveEventOrganisersRef_tab.eparties.NamExternalReferences_tab</atom>
+      </tuple>
+    </table>
+    <table name="FormatSeparator_tab">
+      <tuple>
+        <atom name="FormatSeparator">,</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier"></atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">83</atom>
+    <atom name="Module">eevents</atom>
+    <table name="NestedSeparator_tab">
+      <tuple>
+        <atom name="NestedSeparator">|</atom>
+      </tuple>
+    </table>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">Yes</atom>
+    <table name="RowInclusion_tab">
+      <tuple>
+        <atom name="RowInclusion">All Rows</atom>
+      </tuple>
+    </table>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:identifiedByID - DwC Event Core 2024-03-22</atom>
+    <atom name="Term">dwc:identifiedByID</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/identifiedByID</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 9 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-08</atom>
+    <atom name="AdmDateModified">2024-05-08</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">07:20:40</atom>
+    <atom name="AdmTimeModified">07:23:21</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">84
+Term Definition [Active] dcterms:modified - DwC Event Core 2024-05-01 (String)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">AdmDateModified</atom>
+      </tuple>
+    </table>
+    <table name="Format_tab">
+      <tuple>
+        <atom name="Format">ISO-8601</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">String</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Date</atom>
+      </tuple>
+    </table>
+    <atom name="irn">84</atom>
+    <atom name="Module">eevents</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">No</atom>
+    <atom name="Script"></atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-05-01</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dcterms:modified - DwC Event Core 2024-05-01 (String)</atom>
+    <atom name="Term">dcterms:modified</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://purl.org/dc/terms/modified</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 10 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-05-30</atom>
+    <atom name="AdmDateModified">2024-06-07</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">12:04:44</atom>
+    <atom name="AdmTimeModified">12:56:41</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">91
+Term Definition [Active] dwc:eventType - DwC Event Core 2024-03-22 (Script)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveTypeOfEvent</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">Script</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">91</atom>
+    <atom name="Module">eevents</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">No</atom>
+    <atom name="Script">sub
+fieldFormat
+{
+  if ( index($fields[0], "Camera Trap Sequence") != -1 ) {
+    # return "Deployment";
+     return "test"; #  $fields[0];
+  }
+  elsif ( index($fields[0], "Expedition/Field Trip") != -1 ) {
+    return "Project";
+  } 
+  elsif ( index($fields[0], "Research Project") != -1 ) {
+    return "Project";
+  }
+  else {
+    return $fields[0];
+  }
+}</atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] dwc:eventType - DwC Event Core 2024-03-22 (Script)</atom>
+    <atom name="Term">dwc:eventType</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">http://rs.tdwg.org/dwc/terms/eventType</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+
+  <!-- Row 11 -->
+  <tuple>
+    <atom name="AdmDateInserted">2024-06-07</atom>
+    <atom name="AdmDateModified">2024-06-07</atom>
+    <atom name="AdmImportIdentifier"></atom>
+    <atom name="AdmInsertedBy">Kate Webbink</atom>
+    <atom name="AdmModifiedBy">Kate Webbink</atom>
+    <atom name="AdmOriginalData"></atom>
+    <atom name="AdmPublishWebNoPassword">No</atom>
+    <atom name="AdmPublishWebPassword">No</atom>
+    <atom name="AdmSystemIdentifier"></atom>
+    <atom name="AdmTimeInserted">13:07:55</atom>
+    <atom name="AdmTimeModified">15:03:13</atom>
+    <table name="BetweenValue_nesttab">
+    </table>
+    <atom name="CollapseEmptyValues">No</atom>
+    <atom name="Errors"></atom>
+    <atom name="ExtendedData">92
+Term Definition [Active] gbif:datasetCategory - DwC Event Core 2024-03-22 (Script)</atom>
+    <atom name="ExtractName"></atom>
+    <table name="Field_tab">
+      <tuple>
+        <atom name="Field">EveTypeOfEvent</atom>
+      </tuple>
+    </table>
+    <atom name="FormatSpecifier">Script</atom>
+    <table name="FormatType_tab">
+      <tuple>
+        <atom name="FormatType">Text</atom>
+      </tuple>
+    </table>
+    <atom name="irn">92</atom>
+    <atom name="Module">eevents</atom>
+    <atom name="NotNotes"></atom>
+    <atom name="RecordType">Term Definition</atom>
+    <atom name="RemoveDuplicateValues">No</atom>
+    <atom name="Script">sub
+fieldFormat
+{
+  if ( index($fields[0], "Camera Trap Sequence") != -1 ) {
+    # return "MachineObservation";
+     return "test"; #  $fields[0];
+  }
+  elsif ( index($fields[0], "Expedition/Field Trip") != -1 ) {
+    return "Project";
+  } 
+  elsif ( index($fields[0], "Research Project") != -1 ) {
+    return "Project";
+  }
+  elsif ( index($fields[0], "Survey") != -1 ) {
+    return "SamplingEvent";
+  }
+  else {
+    return $fields[0];
+  }
+}</atom>
+    <atom name="SecRecordStatus"></atom>
+    <atom name="StandardName">DwC Event Core</atom>
+    <atom name="StandardVersion">2024-03-22</atom>
+    <atom name="Status">Active</atom>
+    <atom name="SummaryData">Term Definition [Active] gbif:datasetCategory - DwC Event Core 2024-03-22 (Script)</atom>
+    <atom name="Term">gbif:datasetCategory</atom>
+    <atom name="TermFormatString"></atom>
+    <atom name="TermURI">https://registry.gbif-uat.org/vocabulary/DatasetCategory</atom>
+    <atom name="TypeOfWhere">Boolean</atom>
+    <table name="Value_nesttab">
+    </table>
+    <atom name="WhereOperator">AND</atom>
+  </tuple>
+</table>
